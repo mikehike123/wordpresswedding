@@ -12,7 +12,7 @@ function printPosts($type){
 	while ( have_posts() ) : the_post(); 
 		$feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 		?>
-		<div class="col-lg-4 col-md-4 col-xs-6 thumb"><a class="thumbnail boxShadow" href="<?php the_permalink(); ?>">
+		<div class="col-lg-12 col-md-12 col-xs-12 thumb"><a class="thumbnail boxShadow" href="<?php the_permalink(); ?>">
 		<img class="img-responsive" src="<?php echo $feat_image ?>" alt="" />
 		<h4><?php the_title(); ?></h4>
 		</a></div>
