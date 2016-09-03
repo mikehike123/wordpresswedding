@@ -1,0 +1,1169 @@
+/*
+Theme Name: gossip
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+* {
+	color: #777778;
+}
+ul {
+	padding: 0;
+	margin-bottom: 0px !important;
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lustria', sans-serif;
+	color: #777778;
+	margin-bottom: 24px;
+}
+p, li, a, span {
+	font-family: 'Lato', sans-serif;
+	color: #777778;
+	font-size: 16px;
+	line-height: 1.4;
+}
+img {
+	margin-bottom: 24px;
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+blockquote {
+    margin: 72px 0 48px;
+    padding: 0;
+    font-size: 18px;
+    border-right: none;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    color: #777778;
+    position: relative;
+}
+blockquote:before {
+	position: absolute;
+	font-family: 'FontAwesome';
+	content: '';
+	margin-right: auto;
+	margin-left: auto;
+	right: 0;
+	left: 0;
+	top: -48px;
+	font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+}
+input {
+	height: 40px;
+	line-height: 48px;
+	padding: 10px;
+	border: 1px solid #e5e5e5;
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover {
+    outline:0px !important;
+    -webkit-appearance: none;
+}
+a {
+	background-color: transparent;
+}
+a:hover{
+	color: #4fb2d9;
+}
+a:active,
+a:hover,
+a:focus {
+	outline: 0;
+	text-decoration: none;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+a.more-link:parent{
+	position: relative;
+}
+.gossip-post-heading {
+	font-size: 36px;
+}
+.more-link {
+	margin-top: 24px;
+	font-size: 14px;
+	font-style: italic;
+	width: 120px;
+	height: 40px;
+	background: #4fb2d9;
+	color: #ffffff;
+	display: block;
+	text-align: center;;
+	line-height: 40px;
+	text-decoration: none;
+}
+.more-link:hover {
+	color: #ffffff;
+}
+.more-link:after {
+	content: "";
+	background: #e5e5e5;
+	width: 100%;
+	height: 1px;
+	overflow: hidden;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom: 20px;
+	z-index: -1;
+}
+.gossip-margin{
+	margin-top: 72px;
+	position: relative;
+}
+.gossip-banner img {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+.gossip-meta {
+	margin: 24px auto 24px;
+}
+.gossip-single-content{
+	margin-bottom: 48px;
+}
+.gossip-tags {
+	margin: 0 auto 48px;
+}
+.gossip-meta ul {
+	display: inline;
+}
+.gossip-meta div {
+	display: inline-block;
+	margin-left: 10px;
+}
+.gossip-meta div:before {
+	content: "[";
+	margin-left: 5px;
+}
+.gossip-meta div:after {
+	content: "]";
+	margin-right: 5px;
+}	
+.gossip-meta div a,
+.gossip-meta div{
+	font-size: 14px;
+	font-style: italic;	
+}
+.gossip-meta-category li{
+	display: inline-block;
+}
+.gossip-meta-category li:after {
+	content: ", ";
+}
+.gossip-meta-category li:last-child:after {
+	content: "";
+}
+.gossip-comments-closed {
+	margin-top: 48px;
+}
+.form-control {
+    height: 48px;
+    padding: 6px 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #a7a7a7;
+    border-color: #e5e5e5;
+    background-color: #f9fafa;
+    border-radius: 0;
+    box-shadow: none;
+}
+.gossip-form-control:focus {
+	border-color: #e5e5e5;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.form-group {
+	margin-bottom: 30px;
+}
+.gossip-btn{
+	min-width: 100%;
+	height: 40px;
+	border-radius: none;
+	background: #4fb2d9;
+	color: #ffffff;
+	border: none;
+}
+.gossip-embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+} 
+.gossip-embed-container iframe, 
+.gossip-embed-container object, 
+.gossip-embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+						WordPress Core
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.alignnone {
+    margin: 5px 0 20px 20px;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:left;
+    margin: 5px 20px 20px 0;
+}
+
+.alignleft {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignright {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignnone {
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignleft {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-right: auto;
+    margin-left: auto
+}
+.page-title {
+	display: table;
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption.alignright {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	right: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+.gossip-body-section {
+	margin-bottom: 72px;
+}
+
+.sticky li {
+	list-style: square;
+	margin-top: 12px;
+}
+.gallery-caption {
+
+}
+.bypostauthor {
+
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+							GOSSIP LOGO
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.gossip-logo{
+	margin: 48px auto 24px;
+	max-width: 320px;
+	text-align: center;
+}
+.gossip-logo h1{
+	font-size: 96px;
+	font-weight: 900;
+	margin: 48px auto 12px;
+	color: #777778;
+	text-align: center;
+}
+.gossip-logo p{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 24px;
+}
+@media only screen and (max-width: 783px){
+	.gossip-logo {
+		margin: 48px auto;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+							GOSSIP SOCIAL ICON
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.gossip-social{
+	text-align: center;
+	margin-top: 24px;
+	margin-bottom: 48px;
+}
+.gossip-social ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 5px;
+}
+.gossip-social ul li a i{
+	font-size: 32px;
+	color: #777778;
+}
+.gossip-social ul li a i.fa-facebook-square:hover{
+	color: #3b5998;
+}
+.gossip-social ul li a i.fa-twitter-square:hover{
+	color: #00aced;
+}
+.gossip-social ul li a i.fa-youtube-square:hover{
+	color: #bb0000;
+}
+.gossip-social ul li a i.fa-google-plus-square:hover{
+	color: #dd4b39;
+}
+.gossip-social ul li a i.fa-behance-square:hover{
+	color: #1769ff;
+}
+.gossip-social ul li a i.fa-linkedin-square:hover{
+	color: #0077b5;
+}
+.gossip-social ul li a i.fa-instagram:hover{
+	color: #3f729b;
+}
+@media only screen and (max-width: 783px){
+	.gossip-social{
+		text-align: right;
+		margin-bottom: 0;
+	}
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+						GOSSIP SERACHFORM
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.search-form {
+	max-width: 250px;
+}
+.gossip-search-social .search-form {
+	margin: 0 auto;
+}
+.page-content .search-form {
+	margin-top: 24px;
+}
+.search-form .search-field{
+	max-width: 220px;
+	height: 40px;
+	border: 1px solid #e5e5e5;
+	height: 40px;border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+	display: block;
+  	width: 100%;
+ 	padding: 6px 12px;
+  	font-size: 14px;
+ 	background-color: #fff;
+ 	background-image: none;
+  	border: 1px solid #e5e5e5;
+}
+.search-field::-moz-placeholder {
+	font-weight: 300;
+  color: #999;
+  opacity: 1;
+}
+.search-field:-ms-input-placeholder {
+  color: #999;
+}
+.search-field::-webkit-input-placeholder {
+  color: #999;
+}
+.search-form .search-submit{
+	position: absolute;
+	font-family: 'FontAwesome';
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #ffffff;
+    padding: 0 10px 0 8px;
+    background-color: #777778;
+    height: 40px;border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.search-form .search-field {
+	background-color: #ffffff;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+							GOSSIP NAVIGATION
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/* MObile Navigation */
+@media only screen and (max-width: 783px){
+
+	.gossip-mobile-container {
+		position: relative;
+	}
+	.gossip-mobile-container nav {
+		position: fixed;
+		width: 300px;
+		height: 100%;
+		overflow: scroll;
+		background: #ffffff;
+		top: 0;
+		left: -300px;
+		padding: 48px 24px;
+		z-index: 999999;
+		-webkit-box-shadow: 0px 0px 2px 2px rgba(119,119,120,0.4);
+		-moz-box-shadow: 0px 0px 2px 2px rgba(119,119,120,0.4);
+		box-shadow: 0px 0px 2px 2px rgba(119,119,120,0.4);
+		transition-property: left;
+	  	transition-duration: 1s;
+	 	transition-timing-function: ease-out;
+
+	}
+	.gossip-mobile-container .gossip-nav-open {
+		left: 0;
+	}
+
+	.gossip-nav li a {
+		overflow: hidden;
+		display: block;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		color: #777778;
+	}
+	.gossip-nav .search-form {
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+	.gossip-nav .gossip-social {
+		margin-top: 24px;
+	}
+	.gossip-mobile-navigation li ul{
+		padding-right: 12px;
+		display: block;
+	}
+	.gossip-mobile-navigation .menu li{
+		border-top: 1px solid #e5e5e5;
+	}
+	.gossip-mobile-navigation .menu li:first-child {
+		border-top: none;
+	}
+	.gossip-mobile-navigation .menu ul li:first-child {
+		border-top: 1px solid #e5e5e5;
+	}
+	.gossip-side-trigger {
+		padding: 12px 0 12px 0;
+		background: #777778;
+
+	}
+	.gossip-side-trigger i {
+		font-size: 18px;
+		color: #ffffff;
+		width: 32px;
+		height: 32px;
+		line-height: 32px;
+		text-align: center;
+		border: 1px solid #ffffff;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-o-border-radius: 3px;
+		border-radius: 3px;
+	}
+	.gossip-side-trigger i:hover {
+		background: #ffffff;
+		color: #777778;
+		border: none;
+	}
+	.gossip-close-trigger i{
+		font-size: 24px;
+		color: #777778;
+	}
+	.gossip-search-social {
+		display: none;
+	}
+	ul.mtree li.mtree-open > a:after {
+	    content: '-';
+	    margin-right: 12px;
+
+	}
+	ul.mtree li.mtree-closed > a:after {
+	    content: '+';
+	    margin-right: 12px;
+	}
+}
+
+@media only screen and (min-width: 784px){
+	.gossip-nav .gossip-desktop-navigation {
+		background: #ffffff;
+		border-top: 1px solid #e5e5e5;
+		border-bottom: 1px solid #e5e5e5;
+		/*text-align: center; */
+
+	}
+	.gossip-nav .gossip-desktop-navigation ul li {
+		list-style: none;
+		display: inline-block;
+		margin-left: 24px;
+		position: relative;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li a{
+		margin: 24px auto;
+		font-family: 'Lato', sans-serif;
+		font-size: 13px;
+		font-weight: 700;
+		color: #777778;
+		text-transform: uppercase;
+		display: inline-block;
+	}
+
+	.gossip-nav .gossip-desktop-navigation ul li a:hover{
+		text-decoration: none;
+		display: block;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li.has-child > a:after{
+		font-family: 'FontAwesome';
+		content: " ";
+		margin-right: 10px;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li:hover a{
+		color: #4fb2d9;
+	}
+
+	.gossip-nav .gossip-desktop-navigation ul li ul{
+		background: #ffffff;
+		width: 200px;
+		position: absolute;
+		top: 67px;
+		right: 0;
+		display: none;
+		z-index: 9999;
+		-webkit-box-shadow: 0px 0px 2px 2px rgba(119,119,120,0.4);
+		-moz-box-shadow: 0px 0px 2px 2px rgba(119,119,120,0.4);
+		box-shadow: 0px 0px 2px 2px rgba(119,119,120,0.4);
+	}
+	.gossip-nav .gossip-desktop-navigation ul li:hover > ul{
+		display: block;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li ul li {
+		display: block;
+		text-align: right;
+		margin-left: 0;
+		display: block;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li ul li a {
+		margin: 0px auto;
+		font-weight: 600;
+		padding: 14px 24px;
+		display: block;
+		border-bottom: 1px solid #e5e5e5;
+		display: block;
+	}
+
+	.gossip-nav .gossip-desktop-navigation ul li ul li.has-child-2 > a:after{
+		font-family: 'FontAwesome';
+		position: absolute;
+		content: " ";
+		left: 24px;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li:hover ul li a{
+		color: #777778;
+		display: block;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li:hover ul li a:hover{
+		color: #4fb2d9;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li ul li ul {
+		top: 0;
+		right: -99999999999999px;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li ul li:hover ul {
+		right: 200px;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li ul li:hover a{
+		color: #4fb2d9;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li ul li:hover ul li a{
+		color: #777778;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li ul li:hover ul li a:hover{
+		color: #4fb2d9;
+	}
+
+	.gossip-nav .gossip-desktop-navigation ul li ul li ul li:hover a{
+		color: #4fb2d9;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li ul li ul li ul {
+		top: 0;
+		right: 20px;
+		display: none;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li ul li ul li:hover ul {
+		right: 200px;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li ul li ul li:hover ul li a{
+		color: #777778;
+	}
+	.gossip-nav .gossip-desktop-navigation ul li ul li ul li:hover ul li a:hover{
+		color: #4fb2d9;
+	}
+
+	.gossip-nav .gossip-side-trigger {
+		display: none;
+	}
+	.gossip-search-trigger {
+		display: none;
+	}
+	.gossip-nav .gossip-social {
+		display: none;
+	}
+}
+
+.mobile-toggle {
+	display: block !important;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+						GOSSIP GALLERY POST
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.gallery-item {
+	display: inline-table;
+	width: 24%;
+	margin-left: 1%;
+}
+
+.gallery-item:nth-child(n+4){
+	clear: both;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+						GOSSIP LINK POST
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.gossip-link-post{
+	background: #777778;
+	padding: 48px 24px;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+.gossip-link-details span{
+	display: block;
+}
+.gossip-link-details span i{
+	color: #4fb2d9;
+	font-size: 24px;
+	margin-bottom: 24px;
+}
+.gossip-link-details a {
+	font-size: 24px;
+	font-family: 'Lustria';
+	color: #ffffff;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+						GOSSIP QUOTE POST
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.gossip-quote-post{
+	background: #777778;
+	padding: 24px;
+	text-align: center;
+}
+.gossip-quote-details blockquote:before{
+	color: #4fb2d9;
+	font-size: 24px;
+}
+.gossip-quote-details blockquote{
+	font-size: 24px;
+	margin: 24px;
+	margin-top: 72px;
+	font-family: 'Lustria';
+	color: #ffffff;
+}
+.gossip-quote-details blockquote a,
+.gossip-quote-details blockquote p{
+	clear: both;
+	text-align: center;
+	display: block;
+	font-size: 13px;
+	font-family: 'Lustria';
+	font-style: italic;
+	color: #4fb2d9;
+	padding-top: 24px;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+							GOSSIP SIDEBAR
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.gossip-sidebar-container {
+	margin-top: 48px;
+}
+.gossip-sidebar-container {
+	padding: 48px 24px;
+    outline: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+.gossip-sidebar-container h2 {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 48px;
+}
+.gossip-about-author {
+	text-align: center;
+}
+.gossip-about-author img {
+	margin: 0 auto;
+	margin-top: 24px;
+	margin-bottom: 0px;
+	padding-bottom: 0;
+}
+.gossip-sidebar-container ul li{
+	border-top: 1px solid #e5e5e5;
+}
+.gossip-sidebar-container ul li a{
+	padding: 12px 0;
+	display: block;
+}
+.gossip-sidebar-container ul li:first-child {
+	border-top: none;
+}
+.gossip-sidebar-container ul li a {
+	line-height: 1;
+	display: block;
+}
+.gossip-sidebar-container li .page_item_has_children a{
+	margin-bottom: 0px;
+}
+.gossip-sidebar-container .children {
+	padding-right: 24px;
+	border-top: 1px solid #e5e5e5;
+	list-style: square;
+}
+#recentcomments li{
+	padding: 10px 0;
+}
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+							GOSSIP SINGLE POST AUTHOR 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.gossip-post-author {
+	margin-bottom: 48px;
+	overflow: hidden;
+}
+.gossip-post-author-img {
+	float: right;
+	width: 150px;
+	margin-left: 24px;
+}
+.gossip-post-author-img img {
+	border: 5px solid #777778;
+}
+.gossip-post-author-details {
+	overflow: hidden;
+}
+.gossip-post-author-details h3{
+	margin-top: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #777778;
+	text-transform: uppercase;
+
+}
+@media only screen and (max-width: 783px){
+	.gossip-post-author-details {
+		overflow: none;
+		clear: both;
+	}
+	.gossip-post-author-details h3{
+		margin-top: 24px;
+	}
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+							GOSSIP COMMENTS
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.gossip-comment-container{
+	clear: both;
+	border-top: 1px solid #e5e5e5;
+}
+.gossip-post-comment{
+	margin-top: 24px;
+}
+.comment-list {
+	padding-right: 0;
+}
+.comments-title,
+.comment-reply-title {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #777778;
+	text-align: center;
+	font-weight: 600;
+	padding-top: 48px;
+}
+.comment-meta{
+	font-family: 'Lustria', sans-serif;
+	overflow: hidden;
+	padding-top: 48px;
+	position: relative;
+}
+.children .comment-meta{
+	padding-top: 24px;
+}
+
+.comment-author img{
+	float: right;
+	margin-left: 12px;
+	margin-bottom: 12px;
+	width: 50px;
+	height: auto;
+	border: 1px solid #777778;
+	position: relative;
+}
+
+.comment-author .fn{
+	font-family: 'Lustria', sans-serif;
+}
+
+.gossip-comment-container a{
+	font-family: 'Lustria', sans-serif;
+	color: #4fb2d9;
+}
+.gossip-comment ol,
+.gossip-comment li{
+	list-style: none;
+}
+.comment-metadata .edit-link a {
+	font-size: 14px;
+	font-style: normal;
+	color: #777778;
+	margin-right: 12px;
+}
+.comment-metadata .edit-link a:before{
+	content: ' ';
+	font-family: 'FontAwesome';
+}
+.comment-metadata a {
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+	color: #4fb2d9;
+}
+.comment-content{
+	clear: both;
+}
+.reply a {
+	font-size: 15px;
+}
+.reply a:before {
+	content: " ";
+	font-family: "FontAwesome";
+}
+.gossip-comment-form {
+	clear: both;
+}
+.gossip-comment-form textarea {
+	height: 336px;
+}
+
+@media only screen and (max-width: 783px){
+	.comment-author{
+		overflow: none;
+		clear: both;
+		height: auto;
+		padding-top: 0;
+		padding-bottom: 24px;
+	}
+	.gossip-post-comment-reply {
+		margin-right: 48px;
+	}
+}
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+							GOSSIP WP CALENDAR
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.widget_calendar {
+	float: right;
+}
+#wp-calendar {
+	width: 100%; 
+}
+#wp-calendar caption { 
+	color: #ffffff; 
+	background: #777778;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 15px; 
+	font-weight: 700;
+}
+#wp-calendar thead { 
+	font-size: 13px; 
+	color: #777778; 
+}
+.gossip-footer-widget #wp-calendar thead { 
+	background: #ffffff;
+}
+#wp-calendar thead th { 
+	padding: 10px 0px; 
+	text-align: center;
+	border: 1px solid #e5e5e5;
+}
+#wp-calendar tbody { 
+	color: #777778; 
+}
+#wp-calendar tbody td { 
+	background: #f5f5f5;
+	border: 1px solid #e5e5e5; 
+	text-align: center; 
+	padding: 8px;
+}
+#wp-calendar tbody td:hover { 
+	background: #fff; 
+}
+#wp-calendar tbody .pad,
+#wp-calendar tbody .pad:hover { 
+	background: transparent; 
+}
+.gossip-footer-widget #wp-calendar tbody .pad,
+.gossip-footer-widget #wp-calendar tbody .pad:hover {
+	background: #ffffff;
+}
+#wp-calendar tfoot{
+	background: #777778;
+	color: #ffffff;
+}
+#wp-calendar tfoot a {
+	color: #ffffff;
+}
+#wp-calendar tfoot #next { 
+	padding: 6px 0;
+	padding-left: 12px;
+	text-align: left;
+}
+#wp-calendar tfoot #prev { 
+	padding: 6px 0;
+	padding-right: 12px;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+							GOSSIP PAGINATION
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.gossip-pagination {
+	margin-top: 48px;
+}
+.page-links {
+	margin-top: 24px;
+}
+.page-numbers,
+.page-links a,
+.nav-previous a,
+.nav-next a{
+	display: inline-block;
+	padding: 10px;
+	margin: 0 0 0 2px;
+	border: 1px solid #e5e5e5;
+	line-height: 1;
+	text-decoration: none;
+	border-radius: 2px;
+	font-weight: 600;
+	font-size: 14px;
+}
+.page-numbers.current,
+a.page-numbers:hover,
+.page-links a:hover {
+	background: #f9f9f9;
+}
+.comment-navigation {
+	margin-top: 24px;
+}
+.nav-previous {
+	float: right;
+}
+.nav-previous a:before {
+	font-family: 'FontAwesome';
+	content: ' ';
+}
+.nav-next {
+	float: left;
+}
+.nav-next a:after {
+	font-family: 'FontAwesome';
+	content: ' ';
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+							GOSSIP FOOTER WIDGET
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.gossip-footer-widget {
+	background: #474747;
+	padding-bottom: 48px;
+	overflow: hidden;
+}
+.gossip-footer-widget h2 {
+	margin: 48px auto 24px;
+	font-size: 20px;
+	color: #b9b9b9;
+	line-height: 1;
+}
+.gossip-footer-widget p,
+.gossip-footer-widget li a{
+	color: #8a8a8a;
+	font-size: 16px;
+}
+.gossip-footer-widget li a:hover{
+	color: #4fb2d9;
+}
+.gossip-about img {
+	width: 140px;
+	height: auto;
+	margin-top: 48px;
+	margin-bottom: 0;
+}
+.gossip-about p i {
+	font-size: 14px;
+	height: 36px;
+	width: 36px;
+	color: #b9b9b9;
+	background: #666666;
+	text-align: center;
+	line-height: 36px;
+	border-radius: 3px;
+	margin-left: 12px;
+}
+.gossip-footer-widget li {
+	border-bottom: 1px solid #383838;
+	border-top: 1px solid #535353;
+
+}
+.gossip-footer-widget li a {
+	padding:  5px 0;
+}
+.gossip-footer-widget li:first-child{
+	border-top: none;
+}
+.gossip-footer-widget li:last-child{
+	border-bottom: none;
+}
+.gossip-footer-widget li a {
+	display: block;
+}
+.gossip-footer-widget .children {
+	padding-right: 24px;
+	list-style: square;
+}
+.gossip-footer-widget .children{
+	border-top: 1px solid #535353;
+	box-shadow: 0 -1px 0 #383838;
+}
+.tagcloud a {
+	font-size: 16px;
+	padding: 5px 6px;
+	background: #b9b9b9;
+	color: #666666;
+}
+.gossip-footer-widget #recentcomments li{
+	padding: 5px 0;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+							GOSSIP FOOTER COPYRIGHT
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.gossip-copyright-area {
+	background: #333333;
+	padding: 18px 0;
+}
+.gossip-copyright-area  p{
+	line-height: 1;
+}
+.gossip-copyright-area a {
+	color: #4fb2d9;
+}
+.gossip-nav li.menu-item-has-children ul {
+	display: none;
+}

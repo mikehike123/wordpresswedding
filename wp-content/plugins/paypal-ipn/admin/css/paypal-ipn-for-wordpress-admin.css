@@ -1,0 +1,29 @@
+#the-list tr.warning, #the-list tr.warning td a, #the-list tr.warning td {
+    background-color: #f33;
+    color: #ff9;
+}
+
+#paypal_ipn_primary_url {
+    width: 81%;
+}
+
+.widefat td {
+    word-break: break-all;
+}
+
+#the-list tr.sandbox_warning, #the-list tr.sandbox_warning td a, #the-list tr.sandbox_warning td {
+    background-color: #FFD;
+    color: #26306b;
+}
+pre.prettyprint {
+    word-wrap: break-word;
+}
+.content_padding {
+    padding-left: 16px;
+}
+
+@media screen and (max-width: 782px) {
+.invoice, .payment_date, .first_name, .mc_gross, .txn_type, .payment_status {display:none;}
+.column-invoice, .column-payment_date, .column-first_name, .column-mc_gross, .column-txn_type, .column-payment_status {display:none;}
+#invoice, #payment_date, #first_name, #mc_gross, #txn_type, #payment_status {display:none;}
+}

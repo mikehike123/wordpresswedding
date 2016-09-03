@@ -1,0 +1,99 @@
+/*
+ Theme Name:   Simple Bootstrap Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Simple Bootstrap Child Theme
+ Author:       Mike Clark
+ Author URI:   http://example.com
+ Template:     simple-bootstrap
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  simple-bootstrap-child
+*/
+div.backButton
+{
+	margin-bottom:10px;
+}
+a.thumbnail
+{
+	color:white;
+}
+.page-header {
+    border-bottom:none;
+}
+
+
+.boxShadow
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div#imgMenuContainer
+{
+	text-align:center;
+	width: 80%;
+	margin:auto;
+}
+div.imgMenu
+{
+	overflow: auto;
+
+
+}
+
+
+div.imgMenu .moduleHouse {
+  margin: 10px;
+  width: 200px;
+  height: 133px;
+  float: left;
+  background: url(images/house.png);
+  background-size: cover;
+  position: relative;
+}
+
+div.imgMenu .moduleMountain {
+  margin: 10px;
+  width: 400px;
+  height: 300px;
+  float: left;
+  background: url(mountainbikes-1.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+div.imgMenu h2 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 4px 8px;
+  color: white;
+  margin: 0;
+  font: 14px Sans-Serif;
+}
+
+div.imgMenu .opp h2 {
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+}
+a.anchor {
+display: block;
+position: relative;
+top: -50px;
+visibility: hidden;
+}
+.gallery img.profile {
+  /* Just in case there are inline attributes */
+  width: 100% ;
+  height: auto ;
+  cursor: pointer;
+}
+
+.gallery img
+{
+	width:auto;
+	height:auto;
+}

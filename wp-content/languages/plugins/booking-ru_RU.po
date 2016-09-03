@@ -1,0 +1,2402 @@
+# Translation of Development (trunk) in Russian
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-09-30 18:13:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Development (trunk)\n"
+
+#: lib/wpdev-settings-general.php:997 lib/wpdev-settings-general.php:1022
+#: lib/wpdev-settings-general.php:1056 lib/wpdev-settings-general.php:1071
+#: lib/wpdev-settings-general.php:1088 lib/wpdev-settings-general.php:1294
+msgid "Warning"
+msgstr "Внимание"
+
+#: lib/wpdev-settings-general.php:2447
+msgid "HTML tags is accepted."
+msgstr "Допустимые HTML метки."
+
+#: lib/wpdev-settings-general.php:1569 lib/wpdev-settings-general.php:1612
+#: lib/wpdev-settings-general.php:1657 lib/wpdev-settings-general.php:1703
+#: lib/wpdev-settings-general.php:1757 lib/wpdev-settings-general.php:1800
+#: lib/wpdev-settings-general.php:2048 lib/wpdev-settings-general.php:2129
+#: lib/wpdev-settings-general.php:2201 lib/wpdev-settings-general.php:2289
+msgid "Active"
+msgstr "Активно"
+
+#: lib/wpdev-settings-general.php:2054
+msgid "To"
+msgstr "Кому"
+
+#: lib/wpdev-settings-general.php:2207 lib/wpdev-settings-general.php:2295
+msgid "Send to Admin"
+msgstr "Отправить администратору"
+
+#: lib/wpdev-settings-general.php:2215 lib/wpdev-settings-general.php:2303
+msgid "Check this box to send copy of this email to Admin"
+msgstr "Отметить этот чекбокс, чтобы отправить копию этого письма администратору"
+
+#: lib/wpdev-settings-general.php:2137 lib/wpdev-settings-general.php:2223
+#: lib/wpdev-settings-general.php:2312
+msgid "Type the default %sadmin email%s sending the booking confimation"
+msgstr "Введите стандартное %sписьмо администратору%s, отправляемое для подтверждения бронирования"
+
+#: lib/wpdev-settings-general.php:2068 lib/wpdev-settings-general.php:2142
+#: lib/wpdev-settings-general.php:2228 lib/wpdev-settings-general.php:2317
+msgid "Subject"
+msgstr "Тема"
+
+#: lib/wpdev-settings-general.php:2075 lib/wpdev-settings-general.php:2150
+#: lib/wpdev-settings-general.php:2235 lib/wpdev-settings-general.php:2324
+msgid "Content"
+msgstr "Содержание"
+
+#: lib/wpdev-settings-general.php:2387 lib/wpdev-settings-general.php:2389
+msgid "You can use following shortcodes in content of this template"
+msgstr "Вы можете использовать следующие шорткоды в содержании этого шаблона"
+
+#: lib/wpdev-settings-general.php:2395
+msgid "%s - inserting data info about the booking, which you configured in the content form at Settings Fields page"
+msgstr "%s - добавить информацию о бронировании, которая формируется на странице с Настройками полей"
+
+#: lib/wpdev-settings-general.php:2397
+msgid "%s - inserting ID of booking "
+msgstr "%s - вставить ID бронирования"
+
+#: lib/wpdev-settings-general.php:2399
+msgid "%s or %s - inserting the title of the booking resource "
+msgstr "%s or %s - вставить заголовок бронируемого ресурса"
+
+#: lib/wpdev-settings-general.php:2401
+msgid "%s - inserting the cost of  booking "
+msgstr "%s - вставить стоимость бронирования "
+
+#: lib/wpdev-settings-general.php:2405
+msgid "%s - inserting the dates of booking"
+msgstr "%s - вставить даты бронирования"
+
+#: lib/wpdev-settings-general.php:2407
+msgid "%s - inserting check-in date (first day of reservation),"
+msgstr "%s - вставить дату начала бронирования (первый день бронирования)"
+
+#: lib/wpdev-settings-general.php:2409 lib/wpdev-settings-general.php:2410
+msgid "%s - inserting check-out date (last day of reservation),"
+msgstr "%s - вставить дату конца бронирования (последний день бронирования)"
+
+#: lib/wpdev-settings-general.php:2412
+msgid "%s - inserting the number of booking dates "
+msgstr "%s - вставить количество забронированных дат "
+
+#: lib/wpdev-settings-general.php:2465
+msgid "Customization of email template, which is sending to Admin after new booking"
+msgstr "Настройки шаблона электронного письма, которое посылается админу после нового бронирования"
+
+#: lib/wpdev-settings-general.php:2466
+msgid "New for Admin"
+msgstr "Новый для Админа"
+
+#: lib/wpdev-settings-general.php:2474
+msgid "Customization of email template, which is sending to Visitor after new booking"
+msgstr "Настройки шаблона электронного письма, которое посылается посетителю после нового бронирования"
+
+#: lib/wpdev-settings-general.php:2475
+msgid "New for Visitor"
+msgstr "Новый для Посетителя"
+
+#: lib/wpdev-settings-general.php:2483
+msgid "Customization of email template, which is sending to Visitor after approval of booking"
+msgstr "Настройки шаблона электронного письма, которое посылается посетителю после подтверждения бронирования"
+
+#: lib/wpdev-settings-general.php:2492
+msgid "Customization of email template, which is sending to Visitor after Cancellation of booking"
+msgstr "Настройки шаблона электронного письма, которое посылается посетителю после отмены бронирования"
+
+#: lib/wpdev-settings-general.php:2493
+msgid "Declined"
+msgstr "Отклоненные"
+
+#: lib/wpdev-settings-general.php:2034
+msgid "Email to \"Admin\" after a new booking"
+msgstr "Электронная письмо для \"Администратора\" после нового бронирования"
+
+#: lib/wpdev-settings-general.php:2056
+msgid "Type default %sadmin email%s for booking confirmation"
+msgstr "Введите %semail администратора%s для подтверждения бронирования"
+
+#: lib/wpdev-settings-general.php:2063
+msgid "Type the default %sadmin email%s sending the booking confimation. You can use this %s shortcode."
+msgstr "Введите %semail администратора%s  для отправки подтверждения бронирования. Вы можете использовать этот %s шорткод."
+
+#: lib/wpdev-settings-general.php:2070
+msgid "Type your email %ssubject%s for the booking confimation message."
+msgstr "Введите %sтему%s письма для подтверждения бронирования."
+
+#: lib/wpdev-settings-general.php:2090
+msgid "Type your %semail message content for checking booking%s in. "
+msgstr "Введите Ваш %sтекст письма для проверки бронирования%s в. "
+
+#: lib/wpdev-settings-general.php:2114
+msgid "Email to \"Person\" after they make a new reservation"
+msgstr "Письмо \"Посетителю\" после создания им нового бронирования"
+
+#: lib/wpdev-settings-general.php:2144
+msgid "Type email subject for %svisitor after creating a new reservation%s."
+msgstr "Введите тему email для %sпосетителя, после создания нового бронирования%s."
+
+#: lib/wpdev-settings-general.php:2165
+msgid "Type your %semail message for visitor after creating a new reservation%s"
+msgstr "Введите %sтекст письма для посетителя после создания нового бронирования%s"
+
+#: lib/wpdev-settings-general.php:2187
+msgid "Email to \"Person\" after booking is approved"
+msgstr "Email \"Посетителю\" после подтверждения бронирования"
+
+#: lib/wpdev-settings-general.php:2230
+msgid "Type your email subject for the %sapproved booking%s."
+msgstr "Введите текст письма для %sподтвержденного бронирования%s"
+
+#: lib/wpdev-settings-general.php:2250
+msgid "Type your %semail message for the approved booking%s from the website"
+msgstr "Введите %sтекст письма для подтвержденного бронирования%s с сайта"
+
+#: lib/wpdev-settings-general.php:2274
+msgid "Email to \"Person\" after their booking has been denied"
+msgstr "Письмо \"Посетителю\" после того, как его бронирование было отклонено"
+
+#: lib/wpdev-settings-general.php:2319
+msgid "Type your email subject for the %sdenied booking%s."
+msgstr "Введите тему письма для %sотклоненного бронирования%s."
+
+#: lib/wpdev-settings-general.php:2339
+msgid "Type your %semail message for the denied booking%s from the website"
+msgstr "Введите %sтекст письма для отклоненного бронирования%s с сайта"
+
+#: lib/wpdev-settings-general.php:2349
+msgid "For example: \"Your reservation %s on these date(s): %s has been canceled. Please contact us for more information. %s Thank you, Reservation service.\""
+msgstr "Например: \"Ваша бронь %s на даты: %s была отклонена. Пожалуйста, свяхитесь с нами для получения подробной информации. %s Спасибо, сервис бронирования.\" "
+
+#: lib/wpdev-settings-general.php:909
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: lib/wpdev-settings-general.php:931
+msgid "Type your date format for emails and the booking table. %sDocumentation on date formatting%s"
+msgstr "Введите Ваш формат даты для электронной почты и таблицы бронирования. %s Документация по формату дат%s"
+
+#: lib/wpdev-settings-general.php:939
+msgid "Dates view"
+msgstr "Вид дат"
+
+#: lib/wpdev-settings-general.php:942
+msgid "Short days view"
+msgstr "Сокращенный вид дат"
+
+#: lib/wpdev-settings-general.php:943
+msgid "Wide days view"
+msgstr "Расширенный вид дат"
+
+#: lib/wpdev-settings-general.php:945
+msgid "Select the default view for dates on the booking tables"
+msgstr "Выберите тип показа дат по умолчанию в таблице резервирования"
+
+#: lib/wpdev-settings-general.php:953
+msgid "Show / hide hints"
+msgstr "Показать / спрятать подсказки"
+
+#: lib/wpdev-settings-general.php:959
+msgid "Check this box if you want to show help hints on the admin panel."
+msgstr "Отметьте этот чекбокс, если Вы хотите показать подсказки в административной панели"
+
+#: lib/wpdev-settings-general.php:990
+msgid "Checking to prevent double booking, during submitting booking"
+msgstr "Проверка для предотвращения двойного бронирования"
+
+#: lib/wpdev-settings-general.php:997
+msgid "This feature can impact to speed of submitting booking. Do you really want to do this?"
+msgstr "Эта опция может повлиять на скорость осуществления бронирования. Вы уверены, что хотите этого?"
+
+#: lib/wpdev-settings-general.php:999
+msgid "Check this box, if you want to %sre-check if the selected dates available during submitting booking%s."
+msgstr "Отметьте этот чекбокс, если Вы хотите %sперепроверять, доступны ли выбранные даты в процессе бронирования%s."
+
+#: lib/wpdev-settings-general.php:1003
+msgid "This feature useful to prevent double booking of the same date(s) or time(s), if several visitors try to book the same date(s) in same calendar during the same time."
+msgstr "Эта опция поможет предотвратить двойное бронирование на одну и ту же дату или время. если несколько посетителей попытаются осуществить бронирование на одну и ту же дату одновременно."
+
+#: lib/wpdev-settings-general.php:1006
+msgid "This feature does not work for booking resources with capacity higher than one."
+msgstr "Эта опция не будет работать для ресурсов бронирования, у которых вместительность более, чем 1."
+
+#: lib/wpdev-settings-general.php:1015
+msgid "Allow unlimited bookings per same day(s)"
+msgstr "Разрешить неограниченное бронирование на одно и то же время"
+
+#: lib/wpdev-settings-general.php:1022
+msgid "You allow unlimited number of bookings per same dates, its can be a reason of double bookings on the same date. Do you really want to do this?"
+msgstr "Вы разрешаете неограниченное бронирование на одни и те же даты, это может быть причиной двойного бронирования на одинаковое время. Вы уверены, что хотите этого?"
+
+#: lib/wpdev-settings-general.php:1024
+msgid "Check this box, if you want to %sset any days as available%s in calendar. Your visitors will be able to make %sunlimited bookings per same date(s) in calendar and do not see any booked date(s)%s of other visitors."
+msgstr "Отметьте этот чекбокс, если Вы хотите %sустановить любой день доступным%s в календаре. Ваши посетители смогут осуществлять %sнеограниченное бронирование на одни и те же даты в календаре и не будут видеть даты, забронированные%s другими посетителями."
+
+#: lib/wpdev-settings-general.php:1040
+msgid "Show advanced settings of JavaScript loading"
+msgstr "Показать расширенные настройки загрузки JavaScript"
+
+#: lib/wpdev-settings-general.php:1041
+msgid "Hide advanced settings of JavaScript loading"
+msgstr "Спрятать расширенные настройки загрузки JavaScript"
+
+#: lib/wpdev-settings-general.php:1050
+msgid "Disable Bootstrap loading on Front-End"
+msgstr "Отключить автоматическую загрузку в пользовательском интерфейсе"
+
+#: lib/wpdev-settings-general.php:1056 lib/wpdev-settings-general.php:1071
+#: lib/wpdev-settings-general.php:1088
+msgid "You are need to be sure what you are doing. You are disable of loading some JavaScripts Do you really want to do this?"
+msgstr "Вы должны быть уверены в том, что делаете. Вы отключаете загрузку некоторых JavaScripts. Вы точно этого хотите?"
+
+#: lib/wpdev-settings-general.php:1058 lib/wpdev-settings-general.php:1073
+msgid " If your theme or some other plugin is load the BootStrap JavaScripts, you can disable  loading of this script by this plugin."
+msgstr "Если Ваша тема или другие плагины автоматически загружают JavaScripts, то Вы можете отключить загрузку этого скрипта этим плагином."
+
+#: lib/wpdev-settings-general.php:1065
+msgid "Disable Bootstrap loading on Back-End"
+msgstr "Отключить автозагрузку в админ панели внутреннего интерфейса"
+
+#: lib/wpdev-settings-general.php:1082
+msgid "Load JS and CSS files only on specific pages"
+msgstr "Загружать JS и CSS файлы только на определенных страницах"
+
+#: lib/wpdev-settings-general.php:1090
+msgid "Activate loading of CSS and JavaScript files of plugin only at specific pages."
+msgstr "Активировать загрузку CSS и JavaScript файлов плагина только на определенных страницах."
+
+#: lib/wpdev-settings-general.php:1104
+msgid "Relative URLs of pages, where to load plugin CSS and JS files"
+msgstr "Относительные URL страниц, где будут загружаться CSS и JS файлы плагина"
+
+#: lib/wpdev-settings-general.php:1109
+msgid "Enter relative URLs of pages, where you have Booking Calendar elements (booking forms or availability calendars). Please enter one URL per line. Example: %s"
+msgstr "Введите относительные URL страниц, где будет расположена Форма бронирования или Календарь. Пожалуйста, введите один URL в одной строке. Например: %s"
+
+#: lib/wpdev-settings-general.php:1127
+msgid "Show settings of powered by notice"
+msgstr "Показать настройки уведомления о разработчике"
+
+#: lib/wpdev-settings-general.php:1128
+msgid "Hide settings of powered by notice"
+msgstr "Скрыть настройки уведомления о разработчике"
+
+#: lib/wpdev-settings-general.php:1136
+msgid "Powered by notice"
+msgstr "Разработано"
+
+#: lib/wpdev-settings-general.php:1141
+msgid " Turn On/Off powered by \"Booking Calendar\" notice under the calendar."
+msgstr "Включить/выключить разработано \"Booking Calendar\" надпись под календарем."
+
+#: lib/wpdev-settings-general.php:1151
+msgid "Help and info notices"
+msgstr "Помощь и Информация"
+
+#: lib/wpdev-settings-general.php:1157
+msgid " Turn On/Off version notice and help info links at booking admin panel."
+msgstr "Включить/Выключить указание версии и ссылки на помощь в админ панели бронирования"
+
+#: lib/wpdev-settings-general.php:1186
+msgid "Information"
+msgstr "Информация"
+
+#: lib/wpdev-settings-general.php:1215
+msgid "User permissions for plugin menu pages"
+msgstr "Настройки доступа пользователей к странице плагина в меню"
+
+#: lib/wpdev-settings-general.php:1275
+msgid "Select user access level for the menu pages of plugin"
+msgstr "Выберите уровень пользователя для доступа к странице плагина в меню"
+
+#: lib/wpdev-settings-general.php:1285
+msgid "Uninstall / deactivation"
+msgstr "Удаление / деактивация"
+
+#: lib/wpdev-settings-general.php:1289
+msgid "Delete booking data, when plugin deactivated"
+msgstr "Удалить данные о бронированиях, когда плагин деактивируется"
+
+#: lib/wpdev-settings-general.php:1294
+msgid "If you check this option, all booking data will be deleted when you uninstall this plugin. Do you really want to do this?"
+msgstr "Если Вы отметите эту опцию, то все данные о бронированиях будут удалены при удалении плагина. Вы действительно хотите это сделать?"
+
+#: lib/wpdev-settings-general.php:1296
+msgid "Check this box to delete all booking data when you uninstal this plugin."
+msgstr "Отметьте, чтобы удалить все данные о забронированных датах при удалении плагина"
+
+#: lib/wpdev-settings-general.php:1423
+msgid "Show legend below calendar"
+msgstr "Показывать пояснения (легенду) под календарем"
+
+#: lib/wpdev-settings-general.php:1431
+msgid "Check this box to display a legend of dates below the booking calendar."
+msgstr "Отметьте, если Вы хотите показать пояснения для статусов дней под календарем."
+
+#: lib/wpdev-settings-general.php:1441
+msgid "Available item"
+msgstr "Доступно"
+
+#: lib/wpdev-settings-general.php:1447
+msgid "Activate and type your %stitle of available%s item in legend"
+msgstr "Активируйте и введите Ваше название поля %sдоступно%s в пояснениях"
+
+#: lib/wpdev-settings-general.php:1453
+msgid "Pending item"
+msgstr "В ожидании"
+
+#: lib/wpdev-settings-general.php:1459
+msgid "Activate and type your %stitle of pending%s item in legend"
+msgstr "Активируйте и введите Ваше название поля %sв ожидании подтверждения%s в пояснениях"
+
+#: lib/wpdev-settings-general.php:1465
+msgid "Approved item"
+msgstr "Подтверждено"
+
+#: lib/wpdev-settings-general.php:1471
+msgid "Activate and type your %stitle of approved%s item in legend"
+msgstr "Активируйте и введите Ваше название поля %sподтверждено%s в пояснениях"
+
+#: lib/wpdev-settings-general.php:1477
+msgid "Partially booked item"
+msgstr "Частично занято "
+
+#: lib/wpdev-settings-general.php:1483
+msgid "Activate and type your %stitle of partially booked%s item in legend"
+msgstr "Активируйте и введите Ваше название поля %sчастично занято%s в пояснениях"
+
+#: lib/wpdev-settings-general.php:1484
+msgid "Partially booked item - day, which is booked for the specific time-slot(s)."
+msgstr "Частично занято - день, в котором занята часть временных диапазонов."
+
+#: lib/wpdev-settings-general.php:1535
+msgid "Form fields labels"
+msgstr "Названия полей формы"
+
+#: lib/wpdev-settings-general.php:1559 lib/wpdev-settings-general.php:1602
+#: lib/wpdev-settings-general.php:1747
+msgid "Field Label"
+msgstr "Название поля"
+
+#: lib/wpdev-settings-general.php:1576 lib/wpdev-settings-general.php:1619
+#: lib/wpdev-settings-general.php:1664 lib/wpdev-settings-general.php:1710
+#: lib/wpdev-settings-general.php:1764 lib/wpdev-settings-general.php:1807
+msgid "Required"
+msgstr "Требуется"
+
+#: lib/wpdev-settings-general.php:1579 lib/wpdev-settings-general.php:1622
+#: lib/wpdev-settings-general.php:1722 lib/wpdev-settings-general.php:1767
+#: lib/wpdev-settings-general.php:1810
+msgid "Activate or deactivate field and change the label title"
+msgstr "Активируйте или деактивируйте поле и измените заголовок"
+
+#: lib/wpdev-settings-general.php:1647
+msgid "Email Label"
+msgstr "Надпись Email"
+
+#: lib/wpdev-settings-general.php:1667
+msgid "Change the label title of this field. Email is obligatory field in booking form."
+msgstr "Измените название этого поля. Email - обязательное поле для формы бронирования."
+
+#: lib/wpdev-settings-general.php:1693
+msgid "Selectbox Label"
+msgstr "Название списков выбора"
+
+#: lib/wpdev-settings-general.php:1716
+msgid "Selectbox Values"
+msgstr "Значения списков выбора"
+
+#: lib/wpdev-settings-general.php:1723
+msgid "Enter dropdown options. One option per line."
+msgstr "Введите выпадающие варианты. Один вариант в строке."
+
+#: lib/wpdev-settings-general.php:1790
+msgid "Textarea Label"
+msgstr "Название текстового поля"
+
+#: lib/wpdev-settings-general.php:2099
+msgid "For example: \"You have a new reservation %s on the following date(s): %s Contact information: %s You can approve or cancel this booking at: %s Thank you, Reservation service.\""
+msgstr "Например: \"У Вас есть новое бронирование %s на даты: %s Детальная информация о бронировании: %s Вы можете подтвердить или отклонить это бронирование на: %s. Спасибо, сервис бронирования.\""
+
+#: lib/wpdev-settings-general.php:2173
+msgid "For example: \"Your reservation %s on these date(s): %s is processing now! We will send confirmation by email. %s Thank you, Reservation service.\""
+msgstr "Например: \" Ваша бронь %s на даты: %s в процессе проверки! Пожалуйста, подождите письма, подтверждающего Вашу бронь. %s. Спасибо, сервис бронирования.\" "
+
+#: lib/wpdev-settings-general.php:2259
+msgid "For example: \"Your reservation %s on these date(s): %s has been approved.%s Thank you, Reservation service.\""
+msgstr "Например: \"Ваша бронь %s на даты: %s была подтверждена.%s  Спасибо, сервис бронирования.\" "
+
+#: lib/wpdev-settings-general.php:2385
+msgid "You can use (in subject and content of email template) any shortcodes, which you used in the booking form. Use the shortcodes in the same way as you used them in the content form at Settings Fields page."
+msgstr "Вы можете использовать (в теме или содержании шаблона электронного письма) любые шорткоды, которые Вы используете в форме бронирования. Используйте эти шорткоды также, как Вы использовали их на странице Настройки полей."
+
+#: lib/wpdev-settings-general.php:2393
+msgid "%s - inserting data info about the booking"
+msgstr "%s - добавление информации о бронировании"
+
+#: lib/wpdev-settings-general.php:2416 lib/wpdev-settings-general.php:2424
+msgid "%s - inserting your site URL "
+msgstr "%s - вставить URL Вашего сайта"
+
+#: lib/wpdev-settings-general.php:2417
+msgid "%s - inserting IP address of the user who made this action "
+msgstr "%s - вставить IP адрес пользователя, который совершил это действие"
+
+#: lib/wpdev-settings-general.php:2418
+msgid "%s - inserting contents of the User-Agent: header from the current request, if there is one "
+msgstr "%s - вставить содержимое User-Agent-а: заголовок текущего запроса (если он есть)"
+
+#: lib/wpdev-settings-general.php:2419
+msgid "%s - inserting address of the page (if any), where visitor make this action "
+msgstr "%s - вставить адрес старницы (если есть), где посетитель сделал это действие"
+
+#: lib/wpdev-settings-general.php:2420
+msgid "%s - inserting date of this action "
+msgstr "%s - вставить дату этого действия"
+
+#: lib/wpdev-settings-general.php:2421
+msgid "%s - inserting time of this action "
+msgstr "%s - вставить время этого действия"
+
+#: lib/wpdev-settings-general.php:2428
+msgid "%s - inserting moderate link of new booking "
+msgstr "%s - вставить сылку для модерирования нового бронирования"
+
+#: lib/wpdev-settings-general.php:2432
+msgid "%s - inserting link to the page where visitor can edit the reservation,  (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - вставить ссылку на страницу, где посетитель сможет изменить свое бронирование (возможно использовать %s параметры для установки отличающихся %s от этой страницы. Например: %s )"
+
+#: lib/wpdev-settings-general.php:2434
+msgid "%s - inserting link to the page where visitor can cancel the reservation, (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - вставить ссылку на страницу, где посетитель сможет отменить свое бронирование (возможно использовать %s параметры для установки отличающихся %s от этой страницы. Например: %s )"
+
+#: lib/wpdev-settings-general.php:2436
+msgid "%s - inserting link to payment page where visitor can pay for the reservation  (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - вставить ссылку на страницу оплаты, где посетитель сможет оплатить свое бронирование (возможно использовать %s параметры для установки отличающихся %s от этой страницы. Например: %s )"
+
+#: lib/wpdev-settings-general.php:2440
+msgid "%s - add the reason for booking payment, you can enter it before sending email, "
+msgstr "%s - добавить причину оплаты бронирования, Вы можете ввести его перед отправляемым письмом, "
+
+#: lib/wpdev-settings-general.php:2444
+msgid "%s - add the reason booking was cancelled, you can enter it before sending email, "
+msgstr "%s - добавить причину отмена бронирования, Вы можете добавить ее перед отправляемым письмом, "
+
+#: lib/wpdev-booking-class.php:1637
+msgid "Send"
+msgstr "Отправить"
+
+#: lib/wpdev-booking-class.php:1176
+msgid "Search"
+msgstr "Поиск"
+
+#: lib/wpdev-booking-class.php:732
+msgid "Booking resources management"
+msgstr "Управление ресурсами (объектами) бронирования"
+
+#: lib/wpdev-settings-general.php:666 lib/wpdev-settings-general.php:702
+#: lib/wpdev-settings-general.php:1002 lib/wpdev-settings-general.php:1484
+msgid "Note"
+msgstr "Заметка"
+
+#: lib/wpdev-bk-timeline.php:779 lib/wpdev-booking-class.php:664
+#: lib/wpdev-settings-general.php:1246
+msgid "Resources"
+msgstr "Ресурсы"
+
+#: lib/wpdev-booking-class.php:468
+msgid "Help Info"
+msgstr "Справочная информация"
+
+#: lib/wpdev-booking-class.php:653 lib/wpdev-booking-class.php:720
+#: lib/wpdev-settings-general.php:1232
+msgid "Add booking"
+msgstr "Добавить резерв"
+
+#: lib/wpdev-booking-functions.php:392
+msgid "yes"
+msgstr "да"
+
+#: lib/wpdev-settings-general.php:885 lib/wpdev-settings-general.php:886
+msgid "Cost"
+msgstr "Стоимость"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:153
+msgid "Su"
+msgstr "Вс"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:153
+msgid "Tu"
+msgstr "Вт"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:153
+msgid "Th"
+msgstr "Чт"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:153
+msgid "Sa"
+msgstr "Сб"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:483 lib/wpdev-settings-general.php:573
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:486 lib/wpdev-settings-general.php:585
+msgid "Wednesday"
+msgstr "Среда"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:487 lib/wpdev-settings-general.php:589
+msgid "Thursday"
+msgstr "Четверг"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:488 lib/wpdev-settings-general.php:593
+msgid "Friday"
+msgstr "Пятница"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:489 lib/wpdev-settings-general.php:597
+msgid "Saturday"
+msgstr "Суббота"
+
+#: lib/wpdev-settings-general.php:53
+msgid "Costs"
+msgstr "Стоимости"
+
+#: lib/wpdev-settings-general.php:38 lib/wpdev-settings-general.php:407
+msgid "Calendar"
+msgstr "Календарь"
+
+#: lib/wpdev-settings-general.php:638
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: lib/wpdev-settings-general.php:880 lib/wpdev-settings-general.php:881
+msgid "Resource"
+msgstr "Ресурс"
+
+#: lib/wpdev-bk-timeline.php:963
+msgid "Payment"
+msgstr "Платеж"
+
+#: lib/wpdev-booking-class.php:1181
+msgid "Users"
+msgstr "Пользователи"
+
+#: lib/wpdev-booking-class.php:1680 lib/wpdev-booking-class.php:1737
+msgid "Wrong booking hash in URL (probably expired)"
+msgstr "Неправильный хэш бронирования в ссылке (возможно она уже устарела)"
+
+#: lib/wpdev-bk-timeline.php:225 lib/wpdev-bk-timeline.php:583
+msgid "Times"
+msgstr "Время"
+
+#: lib/wpdev-booking-class.php:726 lib/wpdev-booking-class.php:1155
+msgid "General Settings"
+msgstr "Основные настройки"
+
+#: lib/wpdev-booking-widget.php:115
+msgid "Booking resource"
+msgstr "Тип бронирования"
+
+#: lib/wpdev-booking-class.php:1937 lib/wpdev-booking-widget.php:39
+msgid "You need to use special shortcode [bookingedit] for booking editing."
+msgstr "Вы должны использовать специальный шорткод [bookingedit] для редактирования бронирования."
+
+#: lib/wpdev-booking-widget.php:132
+msgid "Visible months"
+msgstr "Видимые месяцы"
+
+#: lib/wpdev-booking-widget.php:156
+msgid "%sImportant!!!%s Please note, if you show booking calendar (inserted into post/page) with widget at the same page, then the last will not be visible."
+msgstr "%sВажно!!!%s Пожалуйста имейте в виду, если календарь бронирования показываеться в посте или на странице совместно с виджетом (на одной странице), то календарь в виджете не будет показан."
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:146
+#: lib/wpdev-bk-timeline.php:153
+msgid "M"
+msgstr "П"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:146
+#: lib/wpdev-bk-timeline.php:153
+msgid "W"
+msgstr "С"
+
+#: lib/wpdev-bk-timeline.php:116 lib/wpdev-bk-timeline.php:146
+#: lib/wpdev-bk-timeline.php:153
+msgid "F"
+msgstr "П"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Mon"
+msgstr "Пн"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Tue"
+msgstr "Вт"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Wed"
+msgstr "Ср"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Thu"
+msgstr "Чт"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Fri"
+msgstr "Пт"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Sat"
+msgstr "Сб"
+
+#: lib/wpdev-bk-timeline.php:122 lib/wpdev-bk-timeline.php:159
+#: lib/wpdev-bk-timeline.php:470 lib/wpdev-bk-timeline.php:476
+#: lib/wpdev-bk-timeline.php:482 lib/wpdev-bk-timeline.php:488
+#: lib/wpdev-bk-timeline.php:504 lib/wpdev-bk-timeline.php:510
+msgid "Sun"
+msgstr "Вс"
+
+#: lib/wpdev-bk-timeline.php:146
+msgid "T"
+msgstr "Ч"
+
+#: lib/wpdev-bk-timeline.php:146
+msgid "S"
+msgstr "С"
+
+#. #-#-#-#-#  tmp-booking.pot (Booking Calendar 6.2.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: lib/wpdev-booking-class.php:145 lib/wpdev-booking-widget.php:14
+msgid "Booking Calendar"
+msgstr "Календарь бронирования"
+
+#: lib/wpdev-booking-class.php:343
+msgid "Statistic"
+msgstr "Статистика"
+
+#: lib/wpdev-booking-class.php:347
+msgid "New (unverified) booking(s)"
+msgstr "Новые (неподтвержденнный) бронирования"
+
+#: lib/wpdev-booking-class.php:351
+msgid "Pending booking(s)"
+msgstr "Бронирования, ожидающие подтверждения"
+
+#: lib/wpdev-booking-class.php:357
+msgid "Agenda"
+msgstr "Расписание"
+
+#: lib/wpdev-booking-class.php:361
+msgid "New booking(s) made today"
+msgstr "Новые бронирования, сделанные сегодня"
+
+#: lib/wpdev-booking-class.php:365
+msgid "Bookings for today"
+msgstr "Бронирования на сегодня"
+
+#: lib/wpdev-booking-class.php:379
+msgid "Upgrade to higher versions"
+msgstr "Обновить до старшей версии"
+
+#: lib/wpdev-booking-class.php:396
+msgid "Current version"
+msgstr "Текущая версия"
+
+#: lib/wpdev-booking-class.php:399
+msgid "Version"
+msgstr "Версия"
+
+#: lib/wpdev-booking-class.php:415
+msgid "Type"
+msgstr "Тип"
+
+#: lib/wpdev-booking-class.php:419
+msgid "Used for"
+msgstr "Используется для"
+
+#: lib/wpdev-booking-class.php:428
+msgid "websites"
+msgstr "вебсайты"
+
+#: lib/wpdev-booking-class.php:430
+msgid "website"
+msgstr "вебсайт"
+
+#: lib/wpdev-booking-class.php:436
+msgid "Release date"
+msgstr "Дата выхода"
+
+#: lib/wpdev-booking-class.php:446
+msgid "Check Premium Features"
+msgstr "Проверить премиум функции"
+
+#: lib/wpdev-booking-class.php:448 lib/wpdev-booking-class.php:1187
+#: lib/wpdev-booking-class.php:1188 lib/wpdev-booking-class.php:1196
+#: lib/wpdev-booking-class.php:1197
+msgid "Upgrade"
+msgstr "Улучшение"
+
+#: lib/wpdev-booking-class.php:450
+msgid "Explore Premium Features"
+msgstr "Узнайте о премиум функциях"
+
+#: lib/wpdev-booking-class.php:459
+msgid "Support"
+msgstr "Поддержка"
+
+#: lib/wpdev-booking-class.php:464
+msgid "Getting Started"
+msgstr "Приступая к работе"
+
+#: lib/wpdev-booking-class.php:474
+msgid "Contact email"
+msgstr "Контактный email"
+
+#: lib/wpdev-booking-class.php:477
+msgid "Rate plugin (thanks:)"
+msgstr "Оцените плагин (спасибо:)"
+
+#: lib/wpdev-booking-class.php:540
+msgid "Warning !!!"
+msgstr "Внимание !!!"
+
+#: lib/wpdev-booking-class.php:541
+msgid "All booking data will be deleted when the plugin is deactivated."
+msgstr "Все данные о бронированиях будут удалены, когда плагин будет деактивирован."
+
+#: lib/wpdev-booking-class.php:542
+msgid "If you want to save your booking data, please uncheck the %s\"Delete booking data\"%s at the"
+msgstr "Если Вы хотите сохранить Ваши данные по бронированиям, пожалуйста, уберите отметку%s\"Удалить данные о бронированиях\"%s на"
+
+#: lib/wpdev-booking-class.php:543
+msgid "settings page"
+msgstr "странице настроек"
+
+#: lib/wpdev-booking-class.php:593 lib/wpdev-booking-class.php:673
+#: lib/wpdev-booking-functions.php:2567 lib/wpdev-settings-general.php:1260
+msgid "Settings"
+msgstr "Установки"
+
+#: lib/wpdev-booking-class.php:597
+msgid "Check new functionality in this plugin update."
+msgstr "Узнайте о новых функциях в обновлении этого плагина."
+
+#: lib/wpdev-booking-class.php:597
+msgid "What's New"
+msgstr "Что нового"
+
+#: lib/wpdev-booking-class.php:635
+msgid "Booking"
+msgstr "Бронирование"
+
+#: lib/wpdev-booking-class.php:673
+msgid "Booking Calendar Settings"
+msgstr "Настройки календаря бронирования"
+
+#: lib/wpdev-bk-lib.php:1745 lib/wpdev-booking-class.php:683
+#: lib/wpdev-booking-functions.php:2533 lib/wpdev-settings-general.php:1219
+msgid "Bookings"
+msgstr "Бронирования"
+
+#: lib/wpdev-booking-class.php:714
+msgid "Bookings listing"
+msgstr "Список бронирований"
+
+#: lib/wpdev-booking-class.php:1075
+msgid "Send email notification to customer about this operation"
+msgstr "Отослать клиенту электронное письмо об этой операции"
+
+#: lib/wpdev-booking-class.php:1154
+msgid "General"
+msgstr "Основные "
+
+#: lib/wpdev-booking-class.php:1159
+msgid "Fields"
+msgstr "Поля"
+
+#: lib/wpdev-booking-class.php:1160
+msgid "Fields Settings"
+msgstr "Настройки полей"
+
+#: lib/wpdev-booking-class.php:1163
+msgid "Emails"
+msgstr "Emails"
+
+#: lib/wpdev-booking-class.php:1164
+msgid "Emails Settings"
+msgstr "Настройки электронной почты"
+
+#: lib/wpdev-booking-class.php:1171
+msgid "Payments"
+msgstr "Оплаты"
+
+#: lib/wpdev-booking-class.php:1172
+msgid "Payments Settings"
+msgstr "Настройки оплат"
+
+#: lib/wpdev-booking-class.php:1177
+msgid "Search Settings"
+msgstr "Настройки поиска"
+
+#: lib/wpdev-booking-class.php:1182
+msgid "Users Settings"
+msgstr "Настройки пользователей"
+
+#: lib/wpdev-booking-class.php:1218
+msgid "Features"
+msgstr "Возможности"
+
+#: lib/wpdev-booking-class.php:1218
+msgid "Live Demos"
+msgstr "Онлайн демо "
+
+#: lib/wpdev-booking-class.php:1218 lib/wpdev-booking-class.php:1220
+msgid "Contact"
+msgstr "Контакты"
+
+#: lib/wpdev-booking-class.php:1218
+msgid "Buy"
+msgstr "Купить "
+
+#: lib/wpdev-booking-class.php:1508
+msgid "Calendar is loading..."
+msgstr "Календарь загружается..."
+
+#: lib/wpdev-booking-class.php:1688
+msgid "Booking resource type is not defined. Its can be, when at the URL is wrong booking hash."
+msgstr "Тип ресурса бронирования не определен. Эта возможно, если URL содержит неправильный хэш бронирования."
+
+#: lib/wpdev-booking-class.php:1843
+msgid "%sWarning! Booking calendar for this booking resource are already at the page, please check more about this issue at %sthis page%s"
+msgstr "%sВнимание! Календарь бронирования уже существует на этой странице, пожалуйста, прочитайте больше об этой проблеме на %sэтой странице%s"
+
+#: lib/wpdev-booking-class.php:2039 lib/wpdev-booking-class.php:2041
+msgid "Wrong booking hash in URL. Probably hash is expired."
+msgstr "Неправильный хэш бронирования в ссылке. Возможно хэш просрочен."
+
+#: lib/wpdev-booking-class.php:2045
+msgid "You do not set any parameters for booking editing"
+msgstr "Вы не установили никаких параметров для редактирования бронирования."
+
+#: lib/wpdev-booking-class.php:2167
+msgid "Thank you for your online booking. %s We will send confirmation of your booking as soon as possible."
+msgstr "Спасибо за онлайн бронирование. %sМы вышлем Вам подтверждение как можно скорее."
+
+#: lib/wpdev-booking-class.php:2247 lib/wpdev-booking-class.php:2252
+msgid "New booking"
+msgstr "Новое бронирование"
+
+#: lib/wpdev-booking-class.php:2248
+msgid "You need to approve a new booking %s for: %s Person detail information:%s Currently a new booking is waiting for approval. Please visit the moderation panel%sThank you, %s"
+msgstr "Вы должны подтвердить новую бронь %s на: %s Подробная информация о заказчике:%s В настоящее время новый заказ ждет одобрения! Пожалуйста, посетите панель модерирования!%sСпасибо, %s"
+
+#: lib/wpdev-booking-class.php:2254
+msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %sYou can edit this booking at this page: %s  Thank you, %s"
+msgstr "Ваша бронь %sна: %s в процессе проверки! Пожалуйста, дождитесь писма, подтверждающего Вашу бронь. %s Вы можете отредактировать Вашу бронь на этой странице: %s Спасибо, %s"
+
+#: lib/wpdev-booking-class.php:2256
+msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %s Thank you, %s"
+msgstr "Ваша бронь %sна: %s в процессе проверки! Пожалуйста, дождитесь письма, подтверждающего Вашу бронь. %s  Спасибо, %s"
+
+#: lib/wpdev-booking-class.php:2261
+msgid "Your booking has been approved"
+msgstr "Бронирование подтверждено"
+
+#: lib/wpdev-booking-class.php:2263
+msgid "Your reservation %s for: %s has been approved.%sYou can edit the booking on this page: %s Thank you, %s"
+msgstr "Ваша бронь %sна: %sбыла подтверждена. %s Вы можете отредактировать Вашу бронь на этой странице: %s Спасибо, %s "
+
+#: lib/wpdev-booking-class.php:2264
+msgid "Your booking %s for: %s has been approved.%sThank you, %s"
+msgstr "Ваша бронь %sна: %s была подтверждена. %sСпасибо, %s"
+
+#: lib/wpdev-booking-class.php:2267
+msgid "Your booking has been declined"
+msgstr "Ваша бронь отклонена"
+
+#: lib/wpdev-booking-class.php:2268
+msgid "Your booking %s for: %s has been  canceled. %sThank you, %s"
+msgstr "Ваша бронь %sна: %s была отклонена.  %sСпасибо, %s"
+
+#: lib/wpdev-booking-class.php:2278
+msgid "Booking form"
+msgstr "Форма бронирования"
+
+#: lib/wpdev-booking-class.php:2289
+msgid "Available"
+msgstr "Доступо "
+
+#: lib/wpdev-booking-class.php:2293
+msgid "Booked"
+msgstr "Забронировано "
+
+#: lib/wpdev-booking-class.php:2296
+msgid "Partially booked"
+msgstr "Частично забронировано"
+
+#: lib/wpdev-booking-class.php:3047
+msgid "Technical support section"
+msgstr "Раздел технической поддержки"
+
+#: lib/wpdev-booking-class.php:3051
+msgid "Reindex booking data"
+msgstr "Переиндексация данных по бронированию"
+
+#: lib/wpdev-booking-class.php:3053
+msgid "Reindex"
+msgstr "Переиндексация"
+
+#: lib/wpdev-booking-class.php:3059
+msgid " Click, if you want to reindex booking data by booking dates sort field (Your installation/update of the plugin must be successful)."
+msgstr "Кликните, если Вы хотите переиндексировать данные по бронированию (Ваше установка/обновление плагина должно быть успешным)"
+
+#: lib/wpdev-booking-class.php:3104
+msgid "%s Found %s not indexed bookings %s"
+msgstr "%s Найдены %s не индексируемые бронирования %s"
+
+#: lib/wpdev-booking-class.php:3119
+msgid "%s Finish getting sort dates. %s"
+msgstr "%s Завершено получение отсортированные дат. %s"
+
+#: lib/wpdev-booking-class.php:3128
+msgid "Updated booking: %s"
+msgstr "Обновленное бронирование: %s"
+
+#: lib/wpdev-booking-functions.php:396
+msgid "no"
+msgstr "нет"
+
+#: lib/wpdev-booking-functions.php:1348 lib/wpdev-booking-functions.php:1795
+msgid "Booking system"
+msgstr "Система бронирования"
+
+#: lib/wpdev-booking-functions.php:2675
+msgid "Warning! Some error occur, during sending registration request."
+msgstr "Внимание! Во время отправки запроса на регистрацию возникла ошибка."
+
+#: lib/wpdev-booking-functions.php:2680
+msgid "Please refresh this page and if the same error appear again contact support by email (with  info about order number and website) for finishing the registrations"
+msgstr "Пожалуйста, обновите страницу. Если эта ошибка появится внось - свяжитесь с поддержкой по электронной почте (указав информацию о номере заказа и сайте) для завершения регистрации."
+
+#: lib/wpdev-booking-functions.php:2740
+msgid "version"
+msgstr "версия"
+
+#: lib/wpdev-booking-functions.php:2742
+msgid "Add your %s on %swordpress.org%s, if you enjoyed by this plugin."
+msgstr "Добавить Ваш %s на %swordpress.org%s, если Вам нравится этот плагин."
+
+#: lib/wpdev-booking-widget.php:147
+msgid "Footer"
+msgstr "Подвал (футер)"
+
+#: lib/wpdev-booking-widget.php:152
+msgid "Example: %sMake booking here%s"
+msgstr "Пример: %sБронируйте здесь%s"
+
+#: lib/wpdev-booking-widget.php:160
+msgid "%sSeveral widgets are supported at %spaid versions%s."
+msgstr "%sНеколько виджетов поддерживаются в %sплатных версиях%s."
+
+#: lib/wpdev-settings-general.php:44 lib/wpdev-settings-general.php:626
+msgid "Form"
+msgstr "Форма"
+
+#: lib/wpdev-settings-general.php:56
+msgid "Auto cancellation / approval"
+msgstr "Авто отклонение / подтверждение"
+
+#: lib/wpdev-settings-general.php:66 lib/wpdev-settings-general.php:976
+msgid "Advanced"
+msgstr "Расширенный"
+
+#: lib/wpdev-settings-general.php:70
+msgid "Menu access"
+msgstr "Доступ к меню"
+
+#: lib/wpdev-settings-general.php:73
+msgid "Uninstall"
+msgstr "Удалить"
+
+#: lib/wpdev-settings-general.php:76
+msgid "Technical"
+msgstr "Технический"
+
+#: lib/wpdev-settings-general.php:374
+msgid "Settings saved"
+msgstr "Настройки сохранены"
+
+#: lib/wpdev-settings-general.php:411
+msgid "Calendar Skin"
+msgstr "Стиль календаря"
+
+#: lib/wpdev-settings-general.php:457
+msgid "Select the skin of the booking calendar"
+msgstr "Выберите стиль календаря бронирования"
+
+#: lib/wpdev-settings-general.php:462
+msgid "Number of months"
+msgstr "Число месяцев"
+
+#: lib/wpdev-settings-general.php:467
+msgid "month(s)"
+msgstr "месяц(ы)"
+
+#: lib/wpdev-settings-general.php:472
+msgid "year(s)"
+msgstr "год(а)"
+
+#: lib/wpdev-settings-general.php:475
+msgid "Select the maximum number of months to show (scroll)"
+msgstr "Выберите максимальное количество месяцев для просмотра (прокрутка)"
+
+#: lib/wpdev-settings-general.php:480
+msgid "Start Day of the week"
+msgstr "Первый день недели"
+
+#: lib/wpdev-settings-general.php:491
+msgid "Select your start day of the week"
+msgstr "Выберите день начала недели"
+
+#: lib/wpdev-settings-general.php:607
+msgid "Unavailable days from today"
+msgstr "Недоступные дни, начиная с сегодня"
+
+#: lib/wpdev-settings-general.php:614
+msgid "Select number of unavailable days in calendar start from today."
+msgstr "Выберите количество недоступных дней в календаре, начиная с сегодня."
+
+#: lib/wpdev-settings-general.php:569
+msgid "Unavailable week days"
+msgstr "Недоступные дни недели"
+
+#: lib/wpdev-settings-general.php:599
+msgid "Check unavailable days in calendars. This option will overwrite all other settings."
+msgstr "Отметьте недоступные дни в календаре. Эта опция перезаписывает все другие настройки."
+
+#: lib/wpdev-settings-general.php:500
+msgid "Type of days selection in calendar"
+msgstr "Тип выбора дней в календаре"
+
+#: lib/wpdev-settings-general.php:503
+msgid "Type of days selection"
+msgstr "Тип выбора дней"
+
+#: lib/wpdev-settings-general.php:516
+msgid "Single day"
+msgstr "Один день"
+
+#: lib/wpdev-settings-general.php:526
+msgid "Multiple days"
+msgstr "Несколько дней"
+
+#: lib/wpdev-settings-general.php:537
+msgid "Range days"
+msgstr "Диапазон дней"
+
+#: lib/wpdev-settings-general.php:641
+msgid "Check the box to activate CAPTCHA inside the booking form."
+msgstr "Отметьте, чтобы активировать CAPTCHA внутри формы бронирования."
+
+#: lib/wpdev-settings-general.php:648
+msgid "Auto-fill fields"
+msgstr "Авто-заполнение полей"
+
+#: lib/wpdev-settings-general.php:651
+msgid "Check the box to activate auto-fill form fields for logged in users."
+msgstr "Отметьте, чтобы активировать авто-заполнение полей для зарегистрированных пользователей"
+
+#: lib/wpdev-settings-general.php:658
+msgid "Use CSS BootStrap"
+msgstr "Использовать автозагрузку CSS"
+
+#: lib/wpdev-settings-general.php:663
+msgid "Using BootStrap CSS for the form fields"
+msgstr "Использовать автозагрузку CSS для полей формы"
+
+#: lib/wpdev-settings-general.php:666
+msgid "You must not deactivate loading BootStrap files at advanced section of these settings!"
+msgstr "Вы должны не отключать загрузку загрузочных файлов в расширенном разделе этих настроек!"
+
+#: lib/wpdev-settings-general.php:683
+msgid "Action after booking is done"
+msgstr "Действие после завершения бронирования"
+
+#: lib/wpdev-settings-general.php:691
+msgid "Show \"Thank You\" message"
+msgstr "Показывать сообщение \"Спасибо\""
+
+#: lib/wpdev-settings-general.php:698
+msgid "Redirect visitor to a new \"Thank You\" page"
+msgstr "Перенаправить пользователей к новой странице благодарности."
+
+#: lib/wpdev-settings-general.php:702
+msgid "This action will have no effect, if the payment form(s) is active!"
+msgstr "Это действие не будет иметь эффекта, если платежная форма(s) активна!"
+
+#: lib/wpdev-settings-general.php:711
+msgid "Message title"
+msgstr "Заголовок сообщения"
+
+#: lib/wpdev-settings-general.php:714
+msgid "Type title of message %safter booking has done by user%s"
+msgstr "Введите заголовок сообщения %sпосле того как бронирование сделано пользователем%s"
+
+#: lib/wpdev-settings-general.php:719
+msgid "Time of message showing"
+msgstr "Время показа сообщения"
+
+#: lib/wpdev-settings-general.php:722
+msgid "Set duration of time (milliseconds) to show this message"
+msgstr "Установите продолжительность времени (в миллисекундах) для показа этого сообщения"
+
+#: lib/wpdev-settings-general.php:729
+msgid "URL of \"thank you\" page"
+msgstr "URL страницы благодарности"
+
+#: lib/wpdev-settings-general.php:734
+msgid "Type URL of %s\"Thank You\" page%s"
+msgstr "Введите URL %sстраницы благодарности%s"
+
+#: lib/wpdev-settings-general.php:749
+msgid "Listing of bookings"
+msgstr "Список бронирований"
+
+#: lib/wpdev-settings-general.php:752
+msgid "Default booking admin page"
+msgstr "Стандартная админ страница бронирования"
+
+#: lib/wpdev-settings-general.php:755
+msgid "Bookings Listing"
+msgstr "Список бронирований"
+
+#: lib/wpdev-settings-general.php:763
+msgid "Select your default view mode of bookings at the booking listing page"
+msgstr "Выберите стандартный вид бронирований на странице со списком бронирований"
+
+#: lib/wpdev-settings-general.php:773
+msgid "Default calendar view mode"
+msgstr "Стандартный вид календаря"
+
+#: lib/wpdev-settings-general.php:825
+msgid "Select your default calendar view mode at booking calendar overview page"
+msgstr "Выберите стандартный вид календаря на странице просмотра календаря бронирований"
+
+#: lib/wpdev-settings-general.php:835
+msgid "Default toolbar tab"
+msgstr "Панель инструментов по умолчанию"
+
+#: lib/wpdev-settings-general.php:837
+msgid "Filter tab"
+msgstr "Фильтр"
+
+#: lib/wpdev-settings-general.php:838
+msgid "Actions tab"
+msgstr "Действия"
+
+#: lib/wpdev-settings-general.php:845
+msgid "Select your default opened tab in toolbar at booking listing page"
+msgstr "Выберите вкладку, открываемую по умолчанию, на странице со списком бронирований"
+
+#: lib/wpdev-settings-general.php:850
+msgid "Bookings number per page"
+msgstr "Количество бронирований на странице"
+
+#: lib/wpdev-settings-general.php:859
+msgid "Select number of bookings per page in booking listing"
+msgstr "Выберите количество бронирований на странице в списке бронирований"
+
+#: lib/wpdev-settings-general.php:865
+msgid "Bookings default order"
+msgstr "Сортировка по умолчанию"
+
+#: lib/wpdev-settings-general.php:868 lib/wpdev-settings-general.php:870
+#: lib/wpdev-settings-general.php:880 lib/wpdev-settings-general.php:885
+msgid "ASC"
+msgstr "Увел."
+
+#: lib/wpdev-settings-general.php:869 lib/wpdev-settings-general.php:871
+#: lib/wpdev-settings-general.php:881 lib/wpdev-settings-general.php:886
+msgid "DESC"
+msgstr "Умен."
+
+#: lib/wpdev-settings-general.php:894
+msgid "Select your default order of bookings in the booking listing"
+msgstr "Выберите Вашу сортировку по умолчанию для отображения бронирований в общем списке"
+
+#: lib/wpdev-settings-general.php:905
+msgid "Date Format"
+msgstr "Формат даты"
+
+#: lib/wpdev-bk-lib.php:1522 lib/wpdev-bk-lib.php:1941
+#: lib/wpdev-bk-lib.php:1956 lib/wpdev-bk-lib.php:2358
+msgid "Actions"
+msgstr "Действия"
+
+#: lib/wpdev-bk-lib.php:1876
+msgid "Delete"
+msgstr "Удалить"
+
+#: lib/wpbc-gcal.php:742 lib/wpdev-bk-lib.php:1988
+msgid "Default"
+msgstr "По умолчанию"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:144
+msgid "Cancel"
+msgstr "Отмена"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:485
+#: lib/wpdev-bk-edit-toolbar-buttons.php:493
+msgid "Description"
+msgstr "Описание"
+
+#: lib/wpbc-gcal.php:853 lib/wpbc-notices.php:25
+msgid "Warning!"
+msgstr "Внимание!"
+
+#: lib/wpbc-gcal.php:805 lib/wpdev-bk-lib.php:299
+#: lib/wpdev-settings-general.php:2410
+msgid "day"
+msgstr "день"
+
+#: lib/wpbc-gcal.php:618 lib/wpbc-gcal.php:682 lib/wpbc-gcal.php:808
+#: lib/wpdev-bk-lib.php:300 lib/wpdev-bk-lib.php:301 lib/wpdev-bk-lib.php:302
+#: lib/wpdev-bk-lib.php:303 lib/wpdev-bk-lib.php:304
+msgid "days"
+msgstr "дней"
+
+#: lib/wpdev-bk-lib.php:1655 lib/wpdev-settings-general.php:2039
+#: lib/wpdev-settings-general.php:2120 lib/wpdev-settings-general.php:2192
+#: lib/wpdev-settings-general.php:2281
+msgid "Status"
+msgstr "Статус"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:484 lib/wpdev-settings-general.php:577
+msgid "Monday"
+msgstr "Понедельник"
+
+#: lib/wpdev-bk-timeline.php:110 lib/wpdev-bk-timeline.php:134
+#: lib/wpdev-bk-timeline.php:135 lib/wpdev-bk-timeline.php:140
+#: lib/wpdev-bk-timeline.php:463 lib/wpdev-bk-timeline.php:498
+#: lib/wpdev-settings-general.php:485 lib/wpdev-settings-general.php:581
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: lib/wpdev-bk-lib.php:562 lib/wpdev-bk-lib.php:612
+#: lib/wpdev-settings-general.php:923
+msgid "Custom"
+msgstr "Настраиваемый"
+
+#: lib/wpdev-bk-lib.php:1600
+msgid "Go"
+msgstr "Вперед"
+
+#: lib/wpbc-gcal.php:901 lib/wpdev-bk-lib.php:523 lib/wpdev-bk-lib.php:586
+#: lib/wpdev-bk-lib.php:642
+msgid "Close"
+msgstr "Закрыть"
+
+#: lib/wpbc-gcal.php:799
+msgid "hour"
+msgstr "час"
+
+#: lib/wpbc-gcal.php:617 lib/wpbc-gcal.php:681 lib/wpbc-gcal.php:802
+msgid "hours"
+msgstr "часы"
+
+#: lib/wpbc-gcal.php:913
+msgid "Export only current page of bookings to CSV format"
+msgstr "Экспорт только текущей страницы бронирований в CSV формат"
+
+#: lib/wpdev-bk-lib.php:1941
+msgid "Labels"
+msgstr "Надписи"
+
+#: lib/wpdev-bk-lib.php:1651 lib/wpdev-bk-lib.php:2145
+#: lib/wpdev-settings-general.php:2484
+msgid "Approved"
+msgstr "Подтвержденные"
+
+#: lib/wpdev-bk-lib.php:1650 lib/wpdev-bk-lib.php:2144
+#: lib/wpdev-booking-class.php:2291
+msgid "Pending"
+msgstr "Ожидающие подтверждения"
+
+#: lib/wpdev-bk-lib.php:2094
+msgid "Unknown"
+msgstr "Неиизвестные"
+
+#: lib/wpdev-bk-lib.php:2229
+msgid "Created"
+msgstr "Созданные"
+
+#: lib/wpdev-bk-lib.php:2091
+msgid "Paid OK"
+msgstr "Оплата ОК"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:373
+msgid "Booking resource:"
+msgstr "Тип бронирования:"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:393
+msgid "Visible months:"
+msgstr "Видимые месяцы:"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:408
+msgid "Select number of month to show for calendar."
+msgstr "Выберите количество месяцев, показываемых в календаре."
+
+#: lib/wpdev-bk-lib.php:1680
+msgid "All bookings"
+msgstr "Все бронирования"
+
+#: lib/wpbc-gcal.php:862 lib/wpdev-booking-functions.php:1771
+#: lib/wpdev-settings-general.php:2099
+msgid "here"
+msgstr "здесь"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:381
+msgid "Select booking resource"
+msgstr "Выбор ресурса бронирования"
+
+#: lib/wpbc-gcal.php:616 lib/wpbc-gcal.php:680
+msgid "minutes"
+msgstr "минуты"
+
+#: lib/wpbc-gcal.php:625
+msgid "You can specify an additional offset from you chosen start point. The offset can be negative."
+msgstr "Вы можете задать дополнительное смещение от выбранной Вами начальной точки. Смещение может быть отрицательным."
+
+#: lib/wpbc-gcal.php:628 lib/wpbc-gcal.php:692
+msgid "Type your date in format %s. Example: %s"
+msgstr "Введите Вашу дату в формате %s. Например: %s"
+
+#: lib/wpbc-gcal.php:645
+msgid "Until"
+msgstr "До"
+
+#: lib/wpbc-gcal.php:663
+msgid "The end of time"
+msgstr "Время конца"
+
+#: lib/wpbc-gcal.php:671
+msgid "Select option, when to stop retrieving events."
+msgstr "Выберите условие, когда остановки получения событий."
+
+#: lib/wpbc-gcal.php:689
+msgid "You can specify an additional offset from you chosen end point. The offset can be negative."
+msgstr "Вы можете задать дополнительное смещение от выбранной Вами конечной точки. Смещение может быть отрицательным."
+
+#: lib/wpbc-gcal.php:705
+msgid "Maximum number"
+msgstr "Максимальное число"
+
+#: lib/wpbc-gcal.php:708
+msgid "You can specify the maximum number of events to import during one session."
+msgstr "Вы можете задать максимальное количество событий для импорта в течение одной сессии."
+
+#: lib/wpbc-gcal.php:719
+msgid "Google API Key"
+msgstr "Ключ Google API "
+
+#: lib/wpbc-gcal.php:721
+msgid "Please enter your Google API key. This field required to import events."
+msgstr "Пожалуйста, введите Ваш Google API ключ. Это обязательно поле для импорта событий."
+
+#: lib/wpbc-gcal.php:723
+msgid "You can check in this %sinstruction how to generate and use your Google API key%s."
+msgstr "Вы можете ознакомиться в данной %sинструкции как сгенерировать и исаользовать Ваш Google API ключ%s."
+
+#: lib/wpbc-gcal.php:737
+msgid "Timezone"
+msgstr "Часовой пояс"
+
+#: lib/wpbc-gcal.php:771
+msgid "Select a city in your required timezone, if you are having problems with dates and times."
+msgstr "Выберите город в Вашем часовом поясе, если у Вас есть проблемы с датами и временем."
+
+#: lib/wpbc-gcal.php:781
+msgid "Activate auto import"
+msgstr "Активировать авто импорт"
+
+#: lib/wpbc-gcal.php:787
+msgid "Check this box to %sactivate%s auto import events and creation bookings from them"
+msgstr "Выделите этот чекбокс для %sактивации%s авто импорта событий и создания бронирований из них"
+
+#: lib/wpbc-gcal.php:794
+msgid "Import events every"
+msgstr "Импортировать события каждые"
+
+#: lib/wpbc-gcal.php:812
+msgid "Select time duration of import requests."
+msgstr "Выберите продолжительность запросов на импорт."
+
+#: lib/wpbc-gcal.php:855
+msgid "Retrieve Google Calendar Events "
+msgstr "Получить календарь событий Google"
+
+#: lib/wpbc-gcal.php:861
+msgid "Please configure settings for import Google Calendar events"
+msgstr "Пожалуйста, сконфигурируйте настройки для импорта календаря событий Google"
+
+#: lib/wpbc-gcal.php:889
+msgid "Configure"
+msgstr "Настроить"
+
+#: lib/wpbc-gcal.php:899 lib/wpbc-gcal.php:905
+msgid "Import Google Calendar Events"
+msgstr "Импортировать календарь событий Google"
+
+#: lib/wpbc-gcal.php:170 lib/wpbc-gcal.php:912
+msgid "Import"
+msgstr "Импорт"
+
+#: lib/wpbc-notices.php:26
+msgid "Probabaly you updated your paid version of Booking Calendar by free version or update process failed. You can request the new update of your paid version at %1sthis page%2s."
+msgstr "Возможно, Вы обновили Вашу платную версию календаря бронирования на бесплатную версию или процесс процесса не удался. Вы можете запросить новое обновление Вашей платной версии на % 1s этой странице% 2s."
+
+#: lib/wpbc-scripts.php:57
+msgid "This field is required"
+msgstr "Это поле необходимо"
+
+#: lib/wpbc-scripts.php:58
+msgid "This checkbox must be checked"
+msgstr "Этот чекбокс должен быть отмечен"
+
+#: lib/wpbc-scripts.php:59
+msgid "At least one option must be selected"
+msgstr "Как минимум один вариант должен быть выбран"
+
+#: lib/wpbc-scripts.php:60
+msgid "Incorrect email field"
+msgstr "Некорректно введен email"
+
+#: lib/wpbc-scripts.php:62
+msgid "Please, select booking date(s) at Calendar."
+msgstr "Пожалуйста, выделите даты для резервирования."
+
+#: lib/wpbc-welcome.php:801 lib/wpbc-welcome.php:1250
+#: lib/wpdev-booking-class.php:381 lib/wpdev-settings-general.php:1358
+msgid "Purchase"
+msgstr "Покупка"
+
+#: lib/wpbc-welcome.php:801 lib/wpbc-welcome.php:1250 lib/wpdev-bk-lib.php:696
+#: lib/wpdev-booking-class.php:381 lib/wpdev-settings-general.php:1358
+msgid "Upgrade Now"
+msgstr "Улучшить сейчас"
+
+#: lib/wpbc-welcome.php:1427
+msgid "We&#8217;ve assembled some links to get you started:"
+msgstr "Мы собрали несколько ссылок, которые помогут Вам начать:"
+
+#: lib/wpbc-welcome.php:1430
+msgid "Get Started"
+msgstr "Начинаем"
+
+#: lib/wpbc-welcome.php:1433
+msgid "Insert booking form %sshortcode%s into your %sPost%s or %sPage%s"
+msgstr "Вставьте %sшорткод%s формы бронирования в Вашу %sЗапись%s или %sСтраницу%s"
+
+#: lib/wpbc-welcome.php:1441
+msgid "or add booking calendar %sWidget%s to your sidebar."
+msgstr "или добавьте %sВиджет%s календаря бронирований в сайдбар."
+
+#: lib/wpbc-welcome.php:1447
+msgid "Check %show todo%s that and what %sshortcodes%s are available."
+msgstr "Ознакомьтесь %sкак это сделать%s и какие %sшорткоды%s доступны."
+
+#: lib/wpbc-welcome.php:1453
+msgid "Add new booking from your post/page or from %sAdmin Panel%s."
+msgstr "Добавить новое бронирование со страницы/записи или из %sадмин панели%s."
+
+#: lib/wpbc-welcome.php:1460
+msgid "Next Steps"
+msgstr "Следующие шаги"
+
+#: lib/wpbc-welcome.php:1463
+msgid "Check %sBooking Listing%s page for new bookings."
+msgstr "Посетите страницу %sсписка бронирований%s для проверки новых бронирований"
+
+#: lib/wpbc-welcome.php:1469
+msgid "Configure booking %sSettings%s."
+msgstr "Конфигурация %sНастроек%s бронирования."
+
+#: lib/wpbc-welcome.php:1474
+msgid "Configure predefined set of your %sForm Fields%s."
+msgstr "Настройка предопределнных наборов Ваших %sполей формы%s."
+
+#: lib/wpbc-welcome.php:1479
+msgid "Configure your predefined %sEmail Templates%s."
+msgstr "Настройка Ваших предопределенных %sEmail шаблонов%s."
+
+#: lib/wpbc-welcome.php:1486
+msgid "Have a questions?"
+msgstr "Есть вопросы?"
+
+#: lib/wpbc-welcome.php:1489
+msgid "Check out our %sHelp%s"
+msgstr "Ознакомьтесь с нашей %sПомощью%s"
+
+#: lib/wpbc-welcome.php:1494
+msgid "See %sFAQ%s."
+msgstr "Посмотрите %sFAQ%s."
+
+#: lib/wpbc-welcome.php:1499
+msgid "Still having questions? Contact %sSupport%s."
+msgstr "Остались вопросы? Свяжитесь с %sПоддержкой%s."
+
+#: lib/wpbc-welcome.php:1507
+msgid "Need even more functionality? Check %s higher versions %s"
+msgstr "Нужно еще больше функций? Проверьте %s старшие версии %s"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:30
+msgid "Insert booking calendar"
+msgstr "Вставить календарь бронирования"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:31 lib/wpdev-booking-class.php:646
+msgid "Booking calendar"
+msgstr "Календарь бронирования"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:143
+#: lib/wpdev-bk-edit-toolbar-buttons.php:165
+msgid "Ok"
+msgstr "Ок"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:414
+msgid "Start month:"
+msgstr "Месяц начала:"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:424
+msgid "Select start month of calendar"
+msgstr "Выберите месяц начала календаря"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:431
+msgid "Show in the page:"
+msgstr "Показать на странице:"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:437 lib/wpdev-booking-widget.php:105
+msgid "Booking form with calendar"
+msgstr "Форма бронирования с календарем"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:438 lib/wpdev-booking-widget.php:106
+msgid "Only availability calendar"
+msgstr "Только календарь доступных дат "
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:439
+msgid "Only booking form"
+msgstr "Только форма бронирования"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:444
+msgid "for"
+msgstr "для "
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:447
+msgid "date"
+msgstr "дата "
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:451
+msgid "Select to show the entire booking form or the availability calendar only."
+msgstr "Выберите, чтобы показать всю форму бронирование или только календарь свободных мест."
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:466
+msgid "Show advanced settings"
+msgstr "Показать расширенные настройки"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:467
+msgid "Hide advanced settings"
+msgstr "Скрыть расширенные настройки"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:471
+msgid "Setting advanced parameters of the calendar. %sLike width, height and structure %s"
+msgstr "Установка расширенных настроек календаря. %sТаких, как ширина, высота и структура %s"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:473
+msgid "%s or minimum and fixed number of days selection for the specific day of week or season.%s"
+msgstr "%s или минимальное и фиксированное количество выбора дней на определенный день недели или сезон.%s"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:479
+msgid "Please read more about the possible customizations of these %soptions%s %shere%s"
+msgstr "Пожалуйста, прочитайте больше о возможностях для кастомизации этих %sопций%s %sздесь%s"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:480
+msgid "Options:"
+msgstr "Опции: "
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:483
+msgid "Specify the full width of calendar, height of date cell and number of months in one row. "
+msgstr "Задайте полную ширину календаря, высоту ячейки с датой и количество месяцев в одной строке."
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:486
+msgid "Calendar have 2 months in a row, the cell height is 30px and calendar full width 568px (possible to use percentage for width: 100%)"
+msgstr "Календарь показывает 2 месяцев в строке, высота ячейки 30px и полная ширина календаря 568px (можно использовать процент для ширины: 100%)"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:487
+#: lib/wpdev-bk-edit-toolbar-buttons.php:495
+msgid "Code Example"
+msgstr "Пример кода"
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:491
+msgid "Specify that during certain seasons (or days of week), the specific minimum number of days must be booked. "
+msgstr "Укажите, что в определенные сезоны (или дни недели), определенное количество дней должно быть забронировано."
+
+#: lib/wpdev-bk-edit-toolbar-buttons.php:494
+msgid "Visitor can select only 4 days starting at Monday, 3 or 7 days – Friday, 2 days – Saturday, etc…"
+msgstr "Посетитель может выделить только 4 дня, начиная с понедельника, 3 или 7 дней - с пятницы, 2 дня - с субботы и т.д."
+
+#: lib/wpdev-bk-lib.php:305
+msgid "week"
+msgstr "неделя"
+
+#: lib/wpdev-bk-lib.php:306
+msgid "weeks"
+msgstr "недели"
+
+#: lib/wpdev-bk-lib.php:307
+msgid "month"
+msgstr "месяц"
+
+#: lib/wpdev-bk-lib.php:308 lib/wpdev-bk-lib.php:309 lib/wpdev-bk-lib.php:310
+msgid "months"
+msgstr "месяцы"
+
+#: lib/wpdev-bk-lib.php:311 lib/wpdev-bk-lib.php:2435
+#: lib/wpdev-settings-general.php:785 lib/wpdev-settings-general.php:791
+msgid "Year"
+msgstr "Год"
+
+#: lib/wpdev-bk-lib.php:314
+msgid "Current dates"
+msgstr "Текущая дата"
+
+#: lib/wpdev-bk-lib.php:315
+msgid "Today"
+msgstr "Сегодня"
+
+#: lib/wpdev-bk-lib.php:316
+msgid "Previous dates"
+msgstr "Предыдущие даты"
+
+#: lib/wpdev-bk-lib.php:317
+msgid "All dates"
+msgstr "Все даты"
+
+#: lib/wpdev-bk-lib.php:318 lib/wpdev-bk-lib.php:439 lib/wpdev-bk-lib.php:2293
+msgid "Next"
+msgstr "Следующий"
+
+#: lib/wpdev-bk-lib.php:319 lib/wpdev-bk-lib.php:462
+msgid "Prior"
+msgstr "Приоритет"
+
+#: lib/wpdev-bk-lib.php:321
+msgid "Check In - Tomorrow"
+msgstr "Начало бронирования - завтра"
+
+#: lib/wpdev-bk-lib.php:322
+msgid "Check Out - Tomorrow"
+msgstr "Окончание бронирования - завтра"
+
+#: lib/wpdev-bk-lib.php:487
+msgid "Check-in"
+msgstr "Начало бронирования"
+
+#: lib/wpdev-bk-lib.php:497
+msgid "Check-out"
+msgstr "Окончание бронирования"
+
+#: lib/wpdev-bk-lib.php:520 lib/wpdev-bk-lib.php:582 lib/wpdev-bk-lib.php:638
+#: lib/wpdev-bk-lib.php:1611
+msgid "Apply"
+msgstr "Применить"
+
+#: lib/wpdev-bk-lib.php:620
+msgid "Start Date"
+msgstr "Дата начала"
+
+#: lib/wpdev-bk-lib.php:663 lib/wpdev-settings-general.php:47
+msgid "Booking Listing"
+msgstr "Список бронирований"
+
+#: lib/wpdev-bk-lib.php:667 lib/wpdev-settings-general.php:756
+msgid "Calendar Overview"
+msgstr "Обзор календаря"
+
+#: lib/wpdev-bk-lib.php:676
+msgid "Booking Calendar - Overview"
+msgstr "Календарь бронирований - обзор"
+
+#: lib/wpdev-bk-lib.php:684 lib/wpdev-bk-lib.php:692
+msgid "Help"
+msgstr "Помощь"
+
+#: lib/wpdev-bk-lib.php:690
+msgid "About Booking Calendar"
+msgstr "О календаре бронирований"
+
+#: lib/wpdev-bk-lib.php:693 lib/wpdev-booking-class.php:471
+#: lib/wpdev-booking-class.php:1218 lib/wpdev-booking-class.php:1220
+msgid "FAQ"
+msgstr "FAQ"
+
+#: lib/wpdev-bk-lib.php:694
+msgid "Technical Support"
+msgstr "Техническая поддержка"
+
+#: lib/wpdev-bk-lib.php:1512
+msgid "Filter"
+msgstr "Фильтр"
+
+#: lib/wpdev-bk-lib.php:1557
+msgid "Expand Advanced Filter"
+msgstr "Развернуть расширенный фильтр"
+
+#: lib/wpdev-bk-lib.php:1558
+msgid "Collapse Advanced Filter"
+msgstr "Свернуть расширенный фильтр"
+
+#: lib/wpdev-bk-lib.php:1575
+msgid "Send email notification to customer after approval, cancellation or deletion of bookings"
+msgstr "Отправлять email клиентам с уведомлением после подтверждения, отмены или удаления бронирований"
+
+#: lib/wpdev-bk-lib.php:1576
+msgid "Emails sending"
+msgstr "Отправленные email"
+
+#: lib/wpdev-bk-lib.php:1599
+msgid "Booking ID"
+msgstr "ID бронирования"
+
+#: lib/wpdev-bk-lib.php:1608
+msgid "Refresh booking listing"
+msgstr "Обновить список бронирований"
+
+#: lib/wpdev-bk-lib.php:1612
+msgid "Reset filter to default values"
+msgstr "Сбросить фильтр к значениям по умолчанию"
+
+#: lib/wpdev-bk-lib.php:1653 lib/wpdev-bk-lib.php:1743
+msgid "Any"
+msgstr "Любые"
+
+#: lib/wpdev-bk-lib.php:1681
+msgid "New bookings"
+msgstr "Новые бронирования"
+
+#: lib/wpdev-bk-lib.php:1684 lib/wpdev-booking-widget.php:101
+msgid "Show"
+msgstr "Показать"
+
+#: lib/wpdev-bk-lib.php:1696
+msgid "Creation"
+msgstr "Создание"
+
+#: lib/wpdev-bk-lib.php:1730
+msgid "Order by"
+msgstr "Упорядочить по"
+
+#: lib/wpdev-bk-lib.php:1760
+msgid "Save filter settings as default template (Please, click Apply filter button, before saving!)"
+msgstr "Сохранить настройки фильтра как шаблон по умолчанию (Пожалуйста, нажмите кнопку Применить перед сохранением!)"
+
+#: lib/wpdev-bk-lib.php:1763
+msgid "Save as Default"
+msgstr "Сохранить по умолчанию"
+
+#: lib/wpdev-bk-lib.php:1768
+msgid "Delete your previously saved default filer template!"
+msgstr "Удалить Ваш предыдущий сохраненный шаблон фильтра по умолчанию!"
+
+#: lib/wpdev-bk-lib.php:1771
+msgid "Delete template"
+msgstr "Удалить шаблон"
+
+#: lib/wpdev-bk-lib.php:1842
+msgid "Approve selected bookings"
+msgstr "Подтвердить выбранные бронирования"
+
+#: lib/wpdev-bk-lib.php:1846 lib/wpdev-bk-lib.php:2176
+msgid "Approve"
+msgstr "Подтвердить"
+
+#: lib/wpdev-bk-lib.php:1847
+msgid "Set selected bookings as pending"
+msgstr "Установить выбранные бронирования в режим \"в ожидании\""
+
+#: lib/wpdev-bk-lib.php:1849 lib/wpdev-bk-lib.php:2180
+msgid "Do you really want to set booking as pending ?"
+msgstr "Вы уверены, что хотите перевести бронирование в \"в ожидании\"? "
+
+#: lib/wpdev-bk-lib.php:1852 lib/wpdev-bk-lib.php:2181
+msgid "Reject"
+msgstr "Отказ"
+
+#: lib/wpdev-bk-lib.php:1870
+msgid "Delete selected bookings"
+msgstr "Удалить выбранные бронирования"
+
+#: lib/wpdev-bk-lib.php:1878
+msgid "Reason of cancellation"
+msgstr "Причина отмены"
+
+#: lib/wpdev-bk-lib.php:1883
+msgid "Mark as read all bookings"
+msgstr "Пометить прочитанными все бронирования"
+
+#: lib/wpdev-bk-lib.php:1887
+msgid "Read All"
+msgstr "Прочитать все"
+
+#: lib/wpdev-bk-lib.php:1888
+msgid "Mark as read selected bookings"
+msgstr "Отметить как прочитанные выбранные бронирования"
+
+#: lib/wpdev-bk-lib.php:1892
+msgid "Read"
+msgstr "Прочитанные"
+
+#: lib/wpdev-bk-lib.php:1893
+msgid "Mark as Unread selected bookings"
+msgstr "Отметить как непрочитанные выбранные бронирования"
+
+#: lib/wpdev-bk-lib.php:1897 lib/wpdev-bk-lib.php:2117
+msgid "Unread"
+msgstr "Непрочитанные"
+
+#: lib/wpdev-bk-lib.php:1942
+msgid "Booking Data"
+msgstr "Данные по бронированию"
+
+#: lib/wpdev-bk-lib.php:1943
+msgid "Booking Dates"
+msgstr "Даты бронирования"
+
+#: lib/wpdev-bk-lib.php:1948
+msgid "Show ALL dates of booking"
+msgstr "Показывать все даты бронирования"
+
+#: lib/wpdev-bk-lib.php:1953
+msgid "Show only check in/out dates"
+msgstr "Показывать только даты начала/конца бронирования"
+
+#: lib/wpdev-bk-lib.php:1960
+msgid "Nothing found!"
+msgstr "Ничего не найдено!"
+
+#: lib/wpdev-bk-lib.php:1996
+msgid "Resource not exist"
+msgstr "Ресурс не существует"
+
+#: lib/wpdev-bk-lib.php:2117
+msgid "Mark"
+msgstr "Отметить"
+
+#: lib/wpdev-bk-lib.php:2188 lib/wpdev-bk-lib.php:2198
+msgid "Do you really want to delete this booking ?"
+msgstr "Вы уверены, что хотите удалить это бронирование?"
+
+#: lib/wpdev-bk-lib.php:2275
+msgid "Prev"
+msgstr "Пред."
+
+#: lib/wpdev-bk-lib.php:2424 lib/wpdev-bk-lib.php:2456
+msgid "Show month"
+msgstr "Показать месяц"
+
+#: lib/wpdev-bk-lib.php:2427 lib/wpdev-bk-lib.php:2459
+#: lib/wpdev-settings-general.php:780 lib/wpdev-settings-general.php:789
+msgid "Month"
+msgstr "Месяц"
+
+#: lib/wpdev-bk-lib.php:2428
+msgid "Show 3 months"
+msgstr "Показать 3 месяца"
+
+#: lib/wpdev-bk-lib.php:2431 lib/wpdev-settings-general.php:784
+#: lib/wpdev-settings-general.php:790
+msgid "3 Months"
+msgstr "3 месяца"
+
+#: lib/wpdev-bk-lib.php:2432
+msgid "Show year"
+msgstr "Показать год"
+
+#: lib/wpdev-bk-lib.php:2441 lib/wpdev-bk-lib.php:2475
+msgid "Calendar view mode"
+msgstr "Режим вида календаря"
+
+#: lib/wpdev-bk-lib.php:2448
+msgid "Show day"
+msgstr "Показать день"
+
+#: lib/wpdev-bk-lib.php:2451 lib/wpdev-settings-general.php:777
+msgid "Day"
+msgstr "День"
+
+#: lib/wpdev-bk-lib.php:2452
+msgid "Show week"
+msgstr "Показать неделю"
+
+#: lib/wpdev-bk-lib.php:2455 lib/wpdev-settings-general.php:778
+msgid "Week"
+msgstr "Неделя"
+
+#: lib/wpdev-bk-lib.php:2460
+msgid "Show 2 months"
+msgstr "показать 2 месяца"
+
+#: lib/wpdev-bk-lib.php:2463 lib/wpdev-settings-general.php:782
+msgid "2 Months"
+msgstr "2 месяца"
+
+#: lib/wpdev-bk-lib.php:2501 lib/wpdev-bk-lib.php:2515
+#: lib/wpdev-bk-lib.php:2562
+msgid "Previous 4 weeks"
+msgstr "Предыдущие 4 недели"
+
+#: lib/wpdev-bk-lib.php:2502 lib/wpdev-bk-lib.php:2516
+#: lib/wpdev-bk-lib.php:2563
+msgid "Previous week"
+msgstr "Предыдущая неделя"
+
+#: lib/wpdev-bk-lib.php:2503 lib/wpdev-bk-lib.php:2517
+#: lib/wpdev-bk-lib.php:2564
+msgid "Current week"
+msgstr "Текущая неделя"
+
+#: lib/wpdev-bk-lib.php:2504 lib/wpdev-bk-lib.php:2518
+#: lib/wpdev-bk-lib.php:2565
+msgid "Next week"
+msgstr "Следующая неделя"
+
+#: lib/wpdev-bk-lib.php:2505 lib/wpdev-bk-lib.php:2519
+#: lib/wpdev-bk-lib.php:2566
+msgid "Next 4 weeks"
+msgstr "Следующие 4 недели"
+
+#: lib/wpdev-bk-lib.php:2529 lib/wpdev-bk-lib.php:2579
+#: lib/wpdev-bk-lib.php:2594
+msgid "Previous 3 months"
+msgstr "Предыдущие 3 месяца"
+
+#: lib/wpdev-bk-lib.php:2530 lib/wpdev-bk-lib.php:2580
+#: lib/wpdev-bk-lib.php:2595
+msgid "Previous month"
+msgstr "Предыдущий месяц"
+
+#: lib/wpdev-bk-lib.php:2531 lib/wpdev-bk-lib.php:2581
+#: lib/wpdev-bk-lib.php:2596
+msgid "Current month"
+msgstr "Текущий месяц"
+
+#: lib/wpdev-bk-lib.php:2532 lib/wpdev-bk-lib.php:2582
+#: lib/wpdev-bk-lib.php:2597
+msgid "Next month"
+msgstr "Следующий месяц"
+
+#: lib/wpdev-bk-lib.php:2533 lib/wpdev-bk-lib.php:2583
+#: lib/wpdev-bk-lib.php:2598
+msgid "Next 3 months"
+msgstr "Следующие 3 месяца"
+
+#: lib/wpdev-bk-lib.php:2547
+msgid "Previous 7 days"
+msgstr "Предыдущие 7 дней"
+
+#: lib/wpdev-bk-lib.php:2548
+msgid "Previous day"
+msgstr "Предыдущий день"
+
+#: lib/wpdev-bk-lib.php:2549
+msgid "Current day"
+msgstr "Текущий день"
+
+#: lib/wpdev-bk-lib.php:2550
+msgid "Next day"
+msgstr "Следующий день"
+
+#: lib/wpdev-bk-lib.php:2551
+msgid "Next 7 days"
+msgstr "Следующий 7 дней"
+
+#: lib/wpdev-bk-lib.php:2622
+msgid "Calendar Navigation"
+msgstr "Навигация календаря"
+
+#: lib/wpbc-gcal-class.php:580 lib/wpbc-gcal-class.php:611
+#: lib/wpdev-bk-lib.php:1664 lib/wpdev-bk-lib.php:1721
+#: lib/wpdev-bk-lib.php:1724 lib/wpdev-bk-timeline.php:780
+#: lib/wpdev-settings-general.php:870 lib/wpdev-settings-general.php:871
+msgid "Dates"
+msgstr "Даты"
+
+#: lib/wpbc-class-settings.php:46 lib/wpdev-settings-general.php:78
+#: lib/wpdev-settings-general.php:1310 lib/wpdev-settings-general.php:1829
+#: lib/wpdev-settings-general.php:2371 lib/wpdev-settings-general.php:2499
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: lib/wpbc-gcal.php:311 lib/wpbc-gcal.php:331 lib/wpbc-gcal.php:349
+#: lib/wpbc-gcal.php:420 lib/wpdev-booking-class.php:3046
+#: lib/wpdev-settings-general.php:406 lib/wpdev-settings-general.php:563
+#: lib/wpdev-settings-general.php:625 lib/wpdev-settings-general.php:748
+#: lib/wpdev-settings-general.php:975 lib/wpdev-settings-general.php:1185
+#: lib/wpdev-settings-general.php:1214 lib/wpdev-settings-general.php:1284
+#: lib/wpdev-settings-general.php:1534 lib/wpdev-settings-general.php:2033
+#: lib/wpdev-settings-general.php:2113 lib/wpdev-settings-general.php:2186
+#: lib/wpdev-settings-general.php:2273
+msgid "Click to toggle"
+msgstr "Нажмите, чтобы открыть"
+
+#: lib/wpbc-gcal-class.php:577 lib/wpbc-gcal-class.php:595
+#: lib/wpdev-bk-lib.php:1720 lib/wpdev-bk-lib.php:1723
+#: lib/wpdev-bk-lib.php:2138 lib/wpdev-settings-general.php:868
+#: lib/wpdev-settings-general.php:869
+msgid "ID"
+msgstr "ID"
+
+#: lib/wpbc-gcal-class.php:578 lib/wpbc-gcal-class.php:597
+#: lib/wpdev-booking-widget.php:93
+msgid "Title"
+msgstr "Заголовок"
+
+#: lib/wpbc-ajax.php:279
+msgid "Deleted"
+msgstr "Удалено"
+
+#: lib/wpbc-gcal.php:581 lib/wpdev-settings-general.php:2061
+#: lib/wpdev-settings-general.php:2135 lib/wpdev-settings-general.php:2221
+#: lib/wpdev-settings-general.php:2310
+msgid "From"
+msgstr "От"
+
+#: lib/wpbc-gcal-class.php:635 lib/wpbc-notices.php:104
+#: lib/wpdev-settings-general.php:989 lib/wpdev-settings-general.php:1691
+msgid "Hide"
+msgstr "Спрятать"
+
+#: lib/wpbc-gcal-class.php:579 lib/wpbc-gcal-class.php:601
+msgid "Info"
+msgstr "Инфо"
+
+#: lib/wpbc-gcal-class.php:594
+msgid "Selection"
+msgstr "Выбор"
+
+#: lib/wpbc-booking-new.php:137
+msgid "Updating..."
+msgstr "Обновление..."
+
+#: lib/wpbc-gcal.php:516 lib/wpbc-gcal.php:929
+msgid "None"
+msgstr "Никакой"
+
+#: lib/wpbc-ajax.php:224 lib/wpbc-ajax.php:229 lib/wpbc-gcal-class.php:444
+#: lib/wpbc-gcal.php:102
+msgid "Done"
+msgstr "Сделано"
+
+#: lib/wpbc-booking-new.php:161 lib/wpbc-booking-new.php:163
+msgid "Updated successfully"
+msgstr "Обновлено успешно"
+
+#: lib/wpbc-gcal.php:184
+msgid "Google Calendar"
+msgstr "Google календарь"
+
+#: lib/wpbc-gcal.php:185
+msgid "Customization of synchronization with Google Calendar"
+msgstr "Настройка синхронизации с Google календарем"
+
+#: lib/wpbc-gcal.php:391
+msgid "Google Calendar ID"
+msgstr "Google календарь ID"
+
+#: lib/wpbc-ajax.php:35
+msgid "%sError!%s Request do not pass security check! Please refresh the page and try one more time."
+msgstr "%sОшибка!%s Запрос не прошел преверку безопасности! Пожалуйста, обновите страницу и попробуйте еще раз."
+
+#: lib/wpbc-ajax.php:114
+msgid "Set as Read"
+msgstr "Пометить как \"прочитанный\""
+
+#: lib/wpbc-ajax.php:114
+msgid "Set as Unread"
+msgstr "Пометить как \"непрочитанный\""
+
+#: lib/wpbc-ajax.php:171
+msgid "Set as Approved"
+msgstr "Пометить как \"подтвержденный\""
+
+#: lib/wpbc-ajax.php:171
+msgid "Set as Pending"
+msgstr "Пометить как \"в ожидании\""
+
+#: lib/wpbc-ajax.php:189 lib/wpbc-ajax.php:250
+msgid "Reason for cancellation here"
+msgstr "Основания для отмены здесь"
+
+#: lib/wpbc-ajax.php:190 lib/wpbc-ajax.php:251
+msgid "Reason of cancellation here"
+msgstr "Причина отмены здесь"
+
+#: lib/wpbc-booking-new.php:37
+msgid "The code you entered is incorrect"
+msgstr "Введенный код неверен"
+
+#: lib/wpbc-booking-new.php:679
+msgid "Error!"
+msgstr "Ошибка!"
+
+#: lib/wpbc-booking-new.php:680
+msgid "Probably these date(s) just was booking by other visitor. Please reload this page and make booking again."
+msgstr "Наверное эти даты было только что забронированы другим посетителем. Пожалуйста, перезагрузите эту страницу и осуществите бронирование заново."
+
+#: lib/wpbc-class-dismiss.php:79 lib/wpbc-welcome.php:1411
+msgid "Dismiss"
+msgstr "Отклонить"
+
+#: lib/wpbc-gcal-class.php:293
+msgid "Importing Feed"
+msgstr "Импорт канала"
+
+#: lib/wpbc-gcal-class.php:309
+msgid "Data Parsing"
+msgstr "Извлечений данных"
+
+#: lib/wpbc-gcal-class.php:416
+msgid "Some data was retrieved, but could not be parsed successfully. Please ensure your feed URL is correct."
+msgstr "Некоторые данные были получены, но не могут быть обработан успешно. Пожалуйста, убедитесь, что URL канала является правильным."
+
+#: lib/wpbc-gcal-class.php:422
+msgid "The feed could not be found (404). Please ensure your feed URL is correct."
+msgstr "Канал не найден (404). Пожалуйста, убедитесь, что URL канала является правильным."
+
+#: lib/wpbc-gcal-class.php:425
+msgid "Access to this feed was denied (403). Please ensure you have public sharing enabled for your calendar."
+msgstr "Доступ на этот канал был запрещен (403). Пожалуйста, убедитесь, что общий доступ включен для Вашего календаря."
+
+#: lib/wpbc-gcal-class.php:428
+msgid "The feed data could not be retrieved. Error code: %s. Please ensure your feed URL is correct."
+msgstr "Данные от канала не могут быть получены. Код ошибки: %s. Пожалуйста, убедитесь, что URL канала является правильным."
+
+#: lib/wpbc-gcal-class.php:581 lib/wpbc-gcal-class.php:626
+msgid "GID"
+msgstr "GID"
+
+#: lib/wpbc-gcal-class.php:605
+msgid "Location:"
+msgstr "Расположение:"
+
+#: lib/wpbc-gcal-class.php:633
+msgid "Reload page"
+msgstr "Перезагрузите страницу"
+
+#: lib/wpbc-gcal-class.php:637 lib/wpdev-bk-lib.php:1872
+msgid "Do you really want to delete selected booking(s) ?"
+msgstr "Вы уверены, что хотите удалить выбранные бронирования? "
+
+#: lib/wpbc-gcal-class.php:646
+msgid "Delete selected booking(s)"
+msgstr "Удалить выбранный бронирования"
+
+#: lib/wpbc-gcal.php:103
+msgid "Imported 0 events."
+msgstr "Импортировано 0 событий."
+
+#: lib/wpbc-gcal.php:171
+msgid "Synchronization Bookings Settings"
+msgstr "Синхронизирование настроек бронирования"
+
+#: lib/wpbc-gcal.php:184
+msgid "Events Import"
+msgstr "Импорт Событий"
+
+#: lib/wpbc-gcal.php:312
+msgid "Assign events fields to specific booking form field"
+msgstr "Назначайте поля событий к заданным полям формы бронирования"
+
+#: lib/wpbc-gcal.php:332
+msgid "Auto import events"
+msgstr "Авто импорт событий"
+
+#: lib/wpbc-gcal.php:350
+msgid "Google Calendar - General Settings"
+msgstr "Ленты Google календаря - основные настройки"
+
+#: lib/wpbc-gcal.php:377
+msgid "Default settings for retrieving events"
+msgstr "Настройки по умолчанию для извлечения событий"
+
+#: lib/wpbc-gcal.php:421
+msgid "Google Calendar - Help Info"
+msgstr "Ленты Google календаря - Помощь"
+
+#: lib/wpbc-gcal.php:430
+msgid "To get Google Calendar API key please follow this instruction"
+msgstr "Для получения ключа API календаря Google следуйте, пожалуйста, этим инструкциям"
+
+#: lib/wpbc-gcal.php:432
+msgid "Go to Google Developer Console: %s."
+msgstr "Перейдите к Консоли Разработчиков Google: %s. "
+
+#: lib/wpbc-gcal.php:433
+msgid "Give your project a name and click \"Create\"."
+msgstr "Введите имя Вашего проекта и нажмите  \"Создать\"."
+
+#: lib/wpbc-gcal.php:434
+msgid "In the sidebar click on \"APIs & auth\"."
+msgstr "Нажмите в боковом меню на  \"APIs и авторизация\"."
+
+#: lib/wpbc-gcal.php:435
+msgid "Click APIs and make sure \"Calendar API\" is set to ON."
+msgstr "Нажмите на API и убедитесь в том что  \"API Календаря\" активировано."
+
+#: lib/wpbc-gcal.php:436
+msgid "Now click on \"Credentials\" in the sidebar."
+msgstr "Нажмите на ссылку \"Учетные данные\" в боковом меню."
+
+#: lib/wpbc-gcal.php:437
+msgid "Under the section \"Public API access\" click the button \"Create new Key\"."
+msgstr "Под секцией \"API публичного доступа\" нажмите на кнопку \"Создать новый Ключ\"."
+
+#: lib/wpbc-gcal.php:438
+msgid "On the popup click the button \"Server Key\" and click \"Create\"."
+msgstr "В сплывающем  окне нажмите на кнопку \"Ключ Сервера\" и затем нажмите \"Создать\"."
+
+#: lib/wpbc-gcal.php:439
+msgid "You will now see a table loaded with the top item being the API Key. Copy this and paste it into %sGoogle API Key%s field at this page."
+msgstr "Сейчас Вы увидете таблицу, где верхний елемент будет являться Вашим API Ключом. Скопируйте его и вставьте в поле %sКлюч Google API%s на этой странице."
+
+#: lib/wpbc-gcal.php:445
+msgid "Set Your Calendar to Public"
+msgstr "Сделайте Ваш Календарь Общедоступным"
+
+#: lib/wpbc-gcal.php:447 lib/wpbc-gcal.php:455
+msgid "Navigate to your Google calendars."
+msgstr "Откройте Ваш Google Календарь "
+
+#: lib/wpbc-gcal.php:448 lib/wpbc-gcal.php:456
+msgid "Open the settings for the calendar."
+msgstr "Открыть настройки календаря "
+
+#: lib/wpbc-gcal.php:449
+msgid "Click the \"Share this Calendar\" link."
+msgstr "Используйте линк \"Сделать календарь общедоступным\""
+
+#: lib/wpbc-gcal.php:450
+msgid "Click the checkbox to make calendar public. Do not check the other option."
+msgstr "Выделите опцию, для того что бы сделать календарь общедоступныи. Не выделяйте другие опции."
+
+#: lib/wpbc-gcal.php:453
+msgid "Find Your Calendar ID"
+msgstr "Найти ID Календаря"
+
+#: lib/wpbc-gcal.php:457
+msgid "Now copy the Calendar ID to use in the plugin settings in your WordPress admin. Make sure to %suse the Calendar ID only, not the entire XML feed URL%s."
+msgstr "Теперь скопируйте ID календаря для исаользования в настройках плагина. Убедитесь в том, что Вы %sиспользуете только ID календаря и не полностью XML или URL%s."
+
+#: lib/wpbc-gcal.php:557
+msgid "Select field for assigning to %sevent property%s"
+msgstr "Выберите поле для присвоения %sсвойства события%s"
+
+#: lib/wpbc-gcal.php:567
+msgid "Event Title"
+msgstr "Заголовок события"
+
+#: lib/wpbc-gcal.php:568
+msgid "Event Description (optional field)"
+msgstr "Описание события (необязательное поле)"
+
+#: lib/wpbc-gcal.php:569
+msgid "Location"
+msgstr "Расположение"
+
+#: lib/wpbc-gcal.php:594 lib/wpbc-gcal.php:658
+msgid "Now"
+msgstr "Теперь"
+
+#: lib/wpbc-gcal.php:595 lib/wpbc-gcal.php:659
+msgid "00:00 today"
+msgstr "00:00 сегодня"
+
+#: lib/wpbc-gcal.php:596 lib/wpbc-gcal.php:660
+msgid "Start of current week"
+msgstr "Начало текущей недели"
+
+#: lib/wpbc-gcal.php:597 lib/wpbc-gcal.php:661
+msgid "Start of current month"
+msgstr "Начало текущего месяца"
+
+#: lib/wpbc-gcal.php:598 lib/wpbc-gcal.php:662
+msgid "End of current month"
+msgstr "Конец текущего месяца"
+
+#: lib/wpbc-gcal.php:599
+msgid "The start of time"
+msgstr "Время старта"
+
+#: lib/wpbc-gcal.php:600 lib/wpbc-gcal.php:664
+msgid "Specific date / time"
+msgstr "Конкретная дата / время"
+
+#: lib/wpbc-gcal.php:607
+msgid "Select option, when to start retrieving events."
+msgstr "Выберите условие, когда старта получение событий."
+
+#: lib/wpbc-gcal.php:609 lib/wpbc-gcal.php:673
+msgid "Offset"
+msgstr "Смещение"
+
+#: lib/wpbc-gcal.php:609 lib/wpbc-gcal.php:673
+msgid "Enter date / time"
+msgstr "Введите дату / время"
+
+#: lib/wpbc-gcal.php:615 lib/wpbc-gcal.php:679
+msgid "seconds"
+msgstr "секунды"
